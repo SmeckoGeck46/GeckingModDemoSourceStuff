@@ -1,0 +1,23 @@
+{
+  "bf": {"like":"bf", "icons":[0,1,2,3], "colors":["#149DFF"]},
+  "gf": {"like":"gf", "icons":[0,1,2,3], "colors":["#EE19D9"]},
+  "dad": {"like":"dad", "icons":[0,1,2,3], "colors":["#e2ba3b"]},
+  "geckTom": {"like":"geckTom", "icons":[0,1,2,3], "colors":["#3453A1"]},
+  "geckEdd": {"like":"geckTom", "icons":[0,1,2,3], "colors":["#35A135"]},
+  "geckMatt": {"like":"geckTom", "icons":[0,1,2,3], "colors":["#8A34A1"]},
+  "geckTord1": {"like":"geckTord", "icons":[0,1,2,3], "colors":["#D73F3A"]},
+  "geckTord2": {"like":"geckTord", "icons":[0,1,2,3], "colors":["#D73F3A"]},
+  "geckTord3": {"like":"geckTord", "icons":[0,1,2,3], "colors":["#D73F3A"]},
+  "geckTord4": {"like":"geckTord", "icons":[0,1,2,3], "colors":["#D73F3A"]},
+  "starwalker": {"like":"starwalker", "icons":[0,1,2,3], "colors": ["#D8CD0B"]},
+  "pipis": {"like":"pipis", "icons":[0,1,2,3], "colors":["#0AB0E8"]},
+  "n-normal": {"like":"serialN", "icons":[0,1,2,3], "colors":["#f7ff17"]},
+  "n-frenzy": {"like":"serialNFrenzy", "icons":[0,1,2,3], "colors":["#f7ff17"]},
+  "gf-matt-edd": {"like":"gf-edworm", "icons":[0,0,1], "colors":["#EE19D9"]},
+  "gf-tom-matt": {"like":"gf-edworm", "icons":[0,0,1], "colors":["#EE19D9"]},
+  "gf-tom-edd": {"like":"gf-edworm", "icons":[0,0,1], "colors":["#EE19D9"]},
+  "gf-starwalker": {"like":"gf-edworm", "icons":[0,0,1], "colors":["#EE19D9"]},
+  "mayhemMasked": {"like":"sweetmayhem", "icons":[0,1,2,3], "colors":["#da72aa"]},
+  "mayhemUnmasked": {"like":"sweetmayhem", "icons":[0,1,2,3], "colors":["#da72aa"]},
+  "bf-lego": {"like":"bf-lego", "icons":[0,1,2,3], "colors":["#149DFF"]}
+}

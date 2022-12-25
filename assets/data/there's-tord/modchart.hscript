@@ -1,0 +1,43 @@
+function start(song) { //preload stuff
+	switchCharacter('geckTord2','dad');
+	switchCharacter('geckTord3','dad');
+	switchCharacter('geckTord4','dad');
+	switchCharacter('geckTord1','dad');
+	getHaxeActor("dad").x -= 100;
+	getHaxeActor("dad").followCamX += 200;
+}
+function beatHit(beat) { //character swap stuff
+	switch (beat) {
+		case 63, 191:
+			dad.playAnim('hey');
+			gf.playAnim('cheer');
+			FlxG.sound.play(FNFAssets.getSound('assets/sounds/Aye' + TitleState.soundExt));
+			FlxG.sound.play(FNFAssets.getSound('assets/sounds/eight' + TitleState.soundExt));
+		case 64:
+			switchCharacter('geckTord2','dad');
+			getHaxeActor("dad").x -= 100;
+			getHaxeActor("dad").followCamX += 200;
+		case 128:
+			switchCharacter('geckTord1','dad');
+			getHaxeActor("dad").x -= 100;
+			getHaxeActor("dad").followCamX += 200;
+		case 144, 256:
+			switchCharacter('geckTord3','dad');
+			getHaxeActor("dad").x -= 100;
+			getHaxeActor("dad").followCamX += 200;
+		case 192:
+			switchCharacter('geckTord4','dad');
+			getHaxeActor("dad").x -= 100;
+			getHaxeActor("dad").followCamX += 200;
+		case 282: //ending swap workaround
+			switchCharacter('geckTord1','dad');
+			switchCharacter('geckTord3','dad');
+			getHaxeActor("dad").x -= 100;
+			getHaxeActor("dad").followCamX += 200;
+	}
+}
+
+function playerOneSing() { //code that healths the bar
+	if(currentPlayState.demoMode) //healths the bar in demo mode only
+		currentPlayState.health += 0.02;
+}

@@ -1,0 +1,31 @@
+[178[ [179[ [223[ [216[ |N_Cutscene_1_TRUE| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:n-normal: !normal-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Oh my...are you me? 
+:n-normal: !normal-play! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      ...I think so? 
+:n-normal: !normal-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      ... 
+:n-normal: !normal-play! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      ... 
+:n-normal: !scared-play! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic_loud# ^n-worried^ !#FF000000! ?#FFFFFFFF? .. ~~      No one told me that there was another model of me! 
+:n-normal: !scared-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic_loud# ^n-worried^ !#FF000000! ?#FFFFFFFF? .. ~~      What is happening anymore?!?! 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      ...yeah, I'm gonna talk about the backstory of this mod. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      This mod started as a VS Murder Drones idea. Smecko later decided to make it a mod where you face N. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Originally, this mod was gonna be like VS Tord, where it's a simple mod with two songs. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      After sharing the mod idea on the Murder Drones Subreddit and a suggestion from someone, 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      he decided that there would be three songs in the main week, and the first two songs would be released in a demo. 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      As of this mod pack, the third song is still a work in progress. 
+:n-normal: !normal-play! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      So, why is there two of me? 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Smecko thought it would be funny if you could play as N during N's songs. 
+:gf: !default-open! [Comic Neue Bold[ ]30] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      This is meant to reference Super Mario Galaxy where if you play as Luigi, there will be another Luigi that you have to save in some levels. 
+:n-normal: !happy-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Okay, that makes much more sense now. 
+:n-normal: !happy-play! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Yeah. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Also, before we start... 
+:gf: !cheer! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Shoutouts to j0hnnian for being the background artist for this mod! 
+:n-normal: !happy-play! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Yaaaaay for j0hnnian! He's the best! 
+:gf: !default-open! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Smecko asked j0hnnian for help making the background so Smecko can focus more on making music, sprites, and charting. 
+:n-normal: !happy-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Cool! 
+:n-normal: !normal-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      So, can we start singing yet? 
+:n-normal: !normal-play! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Yeah, I'm curious about how this is gonna play out. 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Well, I gotta let the player know something: 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      If the song is lagging on the first time playing, please be patient. It has to do with loading the events in the song. 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      If this is your second time playing or beyond that, then you should be fine. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Okay, I'm done. Let's get this ball rolling. 
+:n-normal: !happy-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Yay! Time to sing with myself! 
+:n-normal: !happy-play! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Yay indeed! 

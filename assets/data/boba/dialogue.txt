@@ -1,0 +1,7 @@
+[178[ [179[ [223[ [216[ |Sweet Mayhem cutscene 2| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Welp, we reached the end of this demo. 
+:mayhemMasked: !default-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mayhem_masked^ !#FF000000! ?#FFFFFFFF? .. ~~      Already? 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Then again, two songs were made for this mod so far. 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      A third song is in production as of this demo mod pack, but that's about it. 
+:mayhemMasked: !default-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mayhem_masked^ !#FF000000! ?#FFFFFFFF? .. ~~      Yeah, that's fair. 
+:mayhemMasked: !default-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mayhem_masked^ !#FF000000! ?#FFFFFFFF? .. ~~      This has been pretty fun, though, so I'm gonna end this demo by giving my all! 

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Lucks Fight.png">
+<!-- The Scrunkly known as "Derek Lucks" over Daddy Dearest -->
+<SubTexture name="Dad idle dance0000" x="822" y="961" width="413" height="947" frameX="-100" frameY="93" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad idle dance0001" x="2469" y="0" width="416" height="936" frameX="-99" frameY="82" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad idle dance0002" x="1235" y="961" width="415" height="942" frameX="-99" frameY="88" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad idle dance0003" x="1235" y="961" width="415" height="942" frameX="-99" frameY="88" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad idle dance0004" x="822" y="961" width="413" height="947" frameX="-100" frameY="93" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad idle dance0005" x="822" y="961" width="413" height="947" frameX="-100" frameY="93" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad idle dance0006" x="819" y="0" width="413" height="949" frameX="-100" frameY="95" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad idle dance0007" x="819" y="0" width="413" height="949" frameX="-100" frameY="95" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad idle dance0008" x="1232" y="0" width="411" height="949" frameX="-101" frameY="96" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad idle dance0009" x="1232" y="0" width="411" height="949" frameX="-101" frameY="96" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad idle dance0010" x="1232" y="0" width="411" height="949" frameX="-101" frameY="96" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad idle dance0011" x="1232" y="0" width="411" height="949" frameX="-101" frameY="96" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad idle dance0012" x="1232" y="0" width="411" height="949" frameX="-101" frameY="96" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad idle dance0013" x="1232" y="0" width="411" height="949" frameX="-101" frameY="96" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note DOWN0000" x="0" y="1910" width="416" height="922" frameX="-99" frameY="99" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note DOWN0001" x="0" y="1910" width="416" height="922" frameX="-99" frameY="99" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note DOWN0002" x="2469" y="936" width="411" height="936" frameX="-101" frameY="113" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note DOWN0003" x="2469" y="936" width="411" height="936" frameX="-101" frameY="113" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note DOWN0004" x="2469" y="936" width="411" height="936" frameX="-101" frameY="113" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note DOWN0005" x="2469" y="936" width="411" height="936" frameX="-101" frameY="113" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note DOWN0006" x="2469" y="936" width="411" height="936" frameX="-101" frameY="113" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note DOWN0007" x="2469" y="936" width="411" height="936" frameX="-101" frameY="113" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note DOWN0008" x="2469" y="936" width="411" height="936" frameX="-101" frameY="113" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note DOWN0009" x="2469" y="936" width="411" height="936" frameX="-101" frameY="113" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note DOWN0010" x="2469" y="936" width="411" height="936" frameX="-101" frameY="113" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note DOWN0011" x="2469" y="936" width="411" height="936" frameX="-101" frameY="113" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note LEFT0000" x="2054" y="0" width="415" height="939" frameX="-88" frameY="78" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note LEFT0001" x="2054" y="0" width="415" height="939" frameX="-88" frameY="78" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note LEFT0002" x="1643" y="0" width="411" height="949" frameX="-91" frameY="86" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note LEFT0003" x="1643" y="0" width="411" height="949" frameX="-91" frameY="86" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note LEFT0004" x="1643" y="0" width="411" height="949" frameX="-91" frameY="86" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note LEFT0005" x="1643" y="0" width="411" height="949" frameX="-91" frameY="86" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note LEFT0006" x="1643" y="0" width="411" height="949" frameX="-91" frameY="86" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note LEFT0007" x="1643" y="0" width="411" height="949" frameX="-91" frameY="86" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note LEFT0008" x="1643" y="0" width="411" height="949" frameX="-91" frameY="86" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note LEFT0009" x="1643" y="0" width="411" height="949" frameX="-91" frameY="86" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note LEFT0010" x="1643" y="0" width="411" height="949" frameX="-91" frameY="86" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note LEFT0011" x="1643" y="0" width="411" height="949" frameX="-91" frameY="86" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note RIGHT0000" x="406" y="0" width="413" height="950" frameX="-99" frameY="70" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note RIGHT0001" x="406" y="0" width="413" height="950" frameX="-99" frameY="70" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note RIGHT0002" x="0" y="961" width="411" height="949" frameX="-99" frameY="69" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note RIGHT0003" x="0" y="961" width="411" height="949" frameX="-99" frameY="69" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note RIGHT0004" x="0" y="961" width="411" height="949" frameX="-99" frameY="69" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note RIGHT0005" x="0" y="961" width="411" height="949" frameX="-99" frameY="69" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note RIGHT0006" x="0" y="961" width="411" height="949" frameX="-99" frameY="69" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note RIGHT0007" x="0" y="961" width="411" height="949" frameX="-99" frameY="69" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note RIGHT0008" x="0" y="961" width="411" height="949" frameX="-99" frameY="69" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note RIGHT0009" x="0" y="961" width="411" height="949" frameX="-99" frameY="69" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note RIGHT0010" x="0" y="961" width="411" height="949" frameX="-99" frameY="69" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note RIGHT0011" x="0" y="961" width="411" height="949" frameX="-99" frameY="69" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note UP0000" x="0" y="0" width="406" height="961" frameX="-98" frameY="56" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note UP0001" x="0" y="0" width="406" height="961" frameX="-96" frameY="56" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note UP0002" x="411" y="961" width="411" height="949" frameX="-96" frameY="46" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note UP0003" x="411" y="961" width="411" height="949" frameX="-96" frameY="46" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note UP0004" x="411" y="961" width="411" height="949" frameX="-96" frameY="46" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note UP0005" x="411" y="961" width="411" height="949" frameX="-96" frameY="46" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note UP0006" x="411" y="961" width="411" height="949" frameX="-96" frameY="46" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note UP0007" x="411" y="961" width="411" height="949" frameX="-96" frameY="46" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note UP0008" x="411" y="961" width="411" height="949" frameX="-96" frameY="46" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note UP0009" x="411" y="961" width="411" height="949" frameX="-96" frameY="46" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note UP0010" x="411" y="961" width="411" height="949" frameX="-96" frameY="46" frameWidth="360" frameHeight="700" />
+<SubTexture name="Dad Sing Note UP0011" x="411" y="961" width="411" height="949" frameX="-96" frameY="46" frameWidth="360" frameHeight="700" />
+</TextureAtlas>

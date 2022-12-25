@@ -1,0 +1,4 @@
+function playerOneSing() { //code that healths the bar
+	if(currentPlayState.demoMode) //healths the bar in demo mode only
+		currentPlayState.health += 0.02;
+}

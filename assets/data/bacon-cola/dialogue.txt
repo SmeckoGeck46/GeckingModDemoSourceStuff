@@ -1,0 +1,31 @@
+[178[ [179[ [223[ [216[ |Edd Cutscene Theme take 2| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:geckEdd: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^eddText^ !#FF000000! ?#FFFFFFFF? .. ~~      Since Matt and Tom had their go for this demo, I guess it's my turn. 
+:bf: !default! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^bfText^ !#FF000000! ?#FFFFFFFF? .. ~~  yayz
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Also, I should probably bring this up: 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      This is the end of the demo. 
+:geckMatt: !sad! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mattText^ !#FF000000! ?#FFFFFFFF? .. ~~      Wait, already? 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Yup.
+:geckMatt: !sad! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mattText^ !#FF000000! ?#FFFFFFFF? .. ~~      But we were having so much fun! 
+:geckTom: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~    Sorry, Matt. All good things must come to an end. 
+:geckTom: !smug! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~    I'll be honest, I did have a good time, despite how short it was. 
+:geckEdd: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^eddText^ !#FF000000! ?#FFFFFFFF? .. ~~      Yeah. 
+:geckEdd: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^eddText^ !#FF000000! ?#FFFFFFFF? .. ~~      I'll try to end this demo off with a pretty swell banger. 
+:gf: !default-open! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      I like the sound of that! 
+:bf: !relaxed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^bfText^ !#FF000000! ?#FFFFFFFF? .. ~~      beep beep I'm a sheep 
+:geckMatt: !confused! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mattText^ !#FF000000! ?#FFFFFFFF? .. ~~      Hang on a sec, Boyfriend. Are you trying to say something? 
+:geckMatt: !confused! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mattText^ !#FF000000! ?#FFFFFFFF? .. ~~      Because I'm having a hard time trying to decipher what your "beep boops" are supposed to mean. 
+:bf: !relaxed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^bfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Nah, I'm just saying random stuff to mess with you guys. 
+:geckMatt: !confused! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mattText^ !#FF000000! ?#FFFFFFFF? .. ~~      ...seriously? 
+:bf: !relaxed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^eatYourHeartOutGawrGura^ !#FF000000! ?#FFFFFFFF? .. ~~      a 
+:geckTom: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~    That's what I was thinking. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Also, here's some more backstory for this mod. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Originally, Smecko was gonna make this mod have a dedicated week like this demo, 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      and the last song was gonna be a remix of "Edd's Crappy Song." 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      And then there would be a bonus freeplay song dedicated to Tord that's at least 9-ish minutes long. 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      However, because of the decision to make this demo mod pack, 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Smecko decided to give Matt, Tom, and Edd their own dedicated weeks with their own dedicated songs. 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      This is the result of coming up with an entirely new song to start Edd's week. 
+:gf: !default-open! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      If you wanna check out the "Edd's Crappy Song" remix, it should be an unlockable bonus song in the Freeplay menu. 
+:geckEdd: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^eddText^ !#FF000000! ?#FFFFFFFF? .. ~~      Interesting. 
+:geckEdd: !glad! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^eddText^ !#FF000000! ?#FFFFFFFF? .. ~~      Anyways, let's get this song rolling and end on a high note! 
+:bf: !default! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^bfText^ !#FF000000! ?#FFFFFFFF? .. ~~      bop bop do the flop 

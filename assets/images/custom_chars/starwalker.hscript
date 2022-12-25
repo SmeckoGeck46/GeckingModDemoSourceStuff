@@ -1,0 +1,95 @@
+// char is a Character
+function init(char) {
+	if (!char.isDie) {
+		trace("This hscript is Pissing me off...");
+		var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
+		trace("I'm the original         Starwalker.");
+		char.frames = tex;
+		char.animation.addByPrefix('idle', 'Starwalker idle', 31, false);
+		char.animation.addByPrefix('singUP', 'Starwalker Up Shark0', 24, false);
+		char.animation.addByPrefix('singDOWN', 'Starwalker Down Shark0', 24, false);
+		char.animation.addByPrefix('singUPmiss', 'Starwalker Up MISS0', 24, false);
+		char.animation.addByPrefix('singRIGHT','Starwalker Left Shark0', 24, false);
+		char.animation.addByPrefix('singLEFT', 'Starwalker Right Shark0', 24, false);
+		char.animation.addByPrefix('singRIGHTmiss','Starwalker Left MISS0', 24, false);
+		char.animation.addByPrefix('singLEFTmiss', 'Starwalker Right MISS0', 24, false);
+		char.animation.addByPrefix('singDOWNmiss', 'Starwalker Down MISS0', 24, false);
+		char.animation.addByPrefix('hey', "Starwalker GODDAMNIT KRIS", 24, false);
+	
+		if (char.isPlayer) { //player camera shift
+	
+			char.followCamX = -150;
+			char.followCamY = 10;
+			
+			char.addOffset('singUP', 4, 70);
+			char.addOffset('singRIGHT', -192, 0);
+			char.addOffset('singLEFT',170, 0);
+			char.addOffset('singDOWN', 0, -16);
+			char.addOffset('singUPmiss', 4, 0);
+			char.addOffset('singRIGHTmiss',-192, 0);
+			char.addOffset('singLEFTmiss', 170, 0);
+			char.addOffset('singDOWNmiss', 0, -16);
+
+		} else { //opponent camera shift
+			
+			char.followCamX = 259;
+			char.followCamY = -100;
+			
+			char.addOffset('singUP', 4, 70);
+			char.addOffset('singRIGHT',-188, 0);
+			char.addOffset('singLEFT',170, 0);
+			char.addOffset('singDOWN', 0, -16);
+			char.addOffset('singUPmiss', 4, 0);
+			char.addOffset('singRIGHTmiss',-188, 0);
+			char.addOffset('singLEFTmiss',-170, 0);
+			char.addOffset('singDOWNmiss', 0, -16);
+		}
+
+		
+		char.addOffset('idle', 0);
+		char.addOffset('hey', 0);
+		char.playAnim('idle');
+	
+		char.flipX = true;
+		char.antialiasing = true;
+		char.enemyOffsetX = -300;
+		char.enemyOffsetY = 100;
+		char.playerOffsetX = -100;
+		char.playerOffsetY = -250;
+		char.midpointX = 0;
+		char.midpointY = 0;
+		//test for dem health bar colors
+		char.enemyColor = 0xFFD8CD0B;
+		char.playerColor = 0xFFD8CD0B;
+	} else {
+        char.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'dead.png', hscriptPath + 'dead.xml');
+        char.animation.addByPrefix('singUP', "Starwalker gameover START", 31, false);
+        char.animation.addByPrefix('deathLoop', "Starwalker gameover Loop", 30, true);
+        char.animation.addByPrefix('firstDeath', "Starwalker gameover START", 31, false);
+        char.animation.addByPrefix('deathConfirm', "Starwalker gameover End", 24, false);
+        char.animation.play('firstDeath');
+
+        char.addOffset('firstDeath');
+        char.addOffset('deathLoop');
+        char.addOffset('deathConfirm');
+        char.playAnim('firstDeath');
+
+        char.antialiasing = true;
+        char.flipX = true;
+        
+        char.followCamX = -100;
+        char.followCamY = -100;
+    }
+}
+portraitOffset = [0, 0];
+dadVar = 6.1;
+isPixel = false;
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+    trace("Star    walker");
+    char.playAnim('idle');
+}
+trace("done");

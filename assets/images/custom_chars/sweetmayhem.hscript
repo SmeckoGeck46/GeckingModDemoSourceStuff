@@ -1,0 +1,85 @@
+trace("butt anger");
+// char is a Character
+function init(char) {
+    trace("finish anim");
+
+    if (char.isPlayer) { //player offsets
+	
+		char.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'play.png', hscriptPath + 'play.xml');
+		char.animation.addByPrefix('idle', 'Mayhem Play Idle Shark', 20, false);
+		char.animation.addByPrefix('singUP', 'Mayhem Play Up Shark', 20, false);
+		char.animation.addByPrefix('singLEFT','Mayhem Play Right Shark', 20, false);
+		char.animation.addByPrefix('singRIGHT', 'Mayhem Play Left Shark', 20, false);
+		char.animation.addByPrefix('singDOWN', 'Mayhem Play Down Shark', 20, false);
+		char.animation.addByPrefix('singUPmiss', 'Mayhem Play Up Miss', 20, false);
+		char.animation.addByPrefix('singLEFTmiss','Mayhem Play Right Miss', 20, false);
+		char.animation.addByPrefix('singRIGHTmiss', 'Mayhem Play Left Miss', 20, false);
+		char.animation.addByPrefix('singDOWNmiss', 'Mayhem Play Down Miss', 20, false);
+		//filler stuff for the death animation (unless I feel too lazy to make new death animation sprites)
+		char.animation.addByPrefix('firstDeath', 'Mayhem Play Up Miss', 20, false);
+		char.animation.addByIndices('deathLoop', 'Mayhem Play Up Miss', [7,7,7], "", 20, true);
+		char.animation.addByPrefix('deathConfirm', 'Mayhem Play Up Shark', 20, false);
+
+        char.followCamX = -150;
+        char.followCamY = 31;
+
+        char.addOffset('singUP', 60,-60);
+        char.addOffset('singRIGHT',60,-60);
+        char.addOffset('singLEFT', 60,-60);
+        char.addOffset('singDOWN',60,-60);
+		char.addOffset('singUPmiss', 60,-60);
+        char.addOffset('singRIGHTmiss',60,-60);
+        char.addOffset('singLEFTmiss', 60,-60);
+        char.addOffset('singDOWNmiss',60,-60);
+        char.addOffset('firstDeath',60,-60);
+        char.addOffset('deathLoop',60,-60);
+        char.addOffset('deathConfirm',60,-60);
+
+    } else { //opponent offsets
+	
+		char.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'fight.png', hscriptPath + 'fight.xml');
+		char.animation.addByPrefix('idle', 'Mayhem Fight Idle Shark', 20, false);
+		char.animation.addByPrefix('singUP', 'Mayhem Fight Up Shark', 20, false);
+		char.animation.addByPrefix('singLEFT','Mayhem Fight Right Shark', 20, false);
+		char.animation.addByPrefix('singRIGHT', 'Mayhem Fight Left Shark', 20, false);
+		char.animation.addByPrefix('singDOWN', 'Mayhem Fight Down Shark', 20, false);
+		
+        char.followCamX = 200;
+        char.followCamY = -69;
+
+        char.addOffset('singUP',60,-60);
+        char.addOffset('singRIGHT',60,-60);
+        char.addOffset('singLEFT',60,-60);
+        char.addOffset('singDOWN',60,-60);
+
+    }
+	
+	char.addOffset('idle', 60,-60);
+    char.playAnim('idle');
+
+    char.flipX = true;
+
+    char.enemyOffsetX = 0;
+    char.enemyOffsetY = 0;
+    char.playerOffsetX = 100;
+    char.playerOffsetY = -350;
+    char.midpointX = 0;
+    char.midpointY = 0;
+	char.camOffsetX = 100;
+	char.camOffsetY = 20;
+    //test
+    char.enemyColor = 0xFFD775AF;
+    char.playerColor = 0xFF64A5FE;
+}
+portraitOffset = [0, 0];
+dadVar = 6.1;
+isPixel = false;
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+    trace("Bruno");
+    char.playAnim('idle');
+}
+trace("done");

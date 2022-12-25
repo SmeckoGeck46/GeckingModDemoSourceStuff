@@ -1,0 +1,77 @@
+[
+{
+    "name" : "All",
+    "songs" : [
+     {"name":"Random-Song",
+      "character":"bf",
+      "week": 0}
+    ]
+  },
+  {
+    "name" : "Eddsworld Mod demo",
+    "songs" : [
+     {
+		"name": "Vanity",
+		"character": "geckMatt",
+		"week": 3
+		},
+		{
+		"name": "Ingoobelyblench",
+		"character": "geckTom",
+		"week" : 3
+		},
+		{
+		"name": "Bacon-Cola",
+		"character": "geckEdd",
+		"week" : 3
+		}
+    ]
+  },{
+    "name" : "OG Starwalker demo",
+    "songs" : [
+     {
+		"name": "Star-Walker",
+		"character": "starwalker",
+		"week": 3
+		},
+		{
+		"name": "Pipis-Song",
+		"character": "pipis",
+		"week" : 3
+		}
+    ]
+  },
+  {
+    "name": "VS N demo",
+    "songs": [
+      {
+		"name": "Disembodied-Voice",
+		"character": "n-normal",
+		"week": 3
+		},{
+		"name": "Dismantle",
+		"character": "n-normal",
+		"week": 3
+		}
+    ]
+  },{
+  "name": "General Mayhem Demo",
+  "songs": [
+	{"name":"Sugar-and-Spice", "character":"mayhemMasked", "week": 3},
+	{"name":"Boba", "character":"mayhemMasked", "week": 3}
+  ]
+  },{
+    "name" : "Other stuff",
+    "songs" : [
+	  {"name":"Tutorial",
+      "character":"gf",
+      "week": 0},
+		{"name": "Edd's-Crappy-Song", "character": "geckEdd","week":101, "flags":["week3"]},
+		{"name": "Huni",
+		"character": "n-normal",
+		"week": 101,
+		"flags": ["week3"]},
+		{"name":"There's-Tord", "character":"geckTord3", "week":101, "flags":["week3"]}
+    ]
+  }
+]

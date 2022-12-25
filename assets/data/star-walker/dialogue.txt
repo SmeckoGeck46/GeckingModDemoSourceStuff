@@ -1,0 +1,17 @@
+[178[ [179[ [223[ [216[ |castletown_empty| *100* =1= #pixel_delta#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:starwalker: !normal! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * This demo is Pissing me off... 
+:starwalker: !normal! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * I'm the original           Starwalker. 
+:gf: !default-closed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * ... 
+:bf: !relaxed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^bfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * ... 
+:gf: !default-open! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Cool. 
+:gf: !default-closed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * This is the demo for The Original Starwalker and Friends. 
+:gf: !default-closed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * This demo contains two songs for two characters. 
+:gf: !default-closed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Fun fact: these two songs are actually the first ones finished during development. 
+:gf: !unimpressed! [Pixel Arial 11 Bold[ ]32] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * And yeah, this mod was made because of the release of Deltarune Chapter 2. 
+:gf: !default-closed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Smecko got back into Deltarune at the time of Chapter 2's release, 
+:gf: !default-closed! [Pixel Arial 11 Bold[ ]32] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * and he wanted to make an FNF mod based on the most ridiculous background character. 
+:starwalker: !normal! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Hey                           
+:gf: !unimpressed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * This demo is plenty of months late, but whatever. 
+:gf: !default-open! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * We hope you enjoy it, though! 
+:starwalker: !up! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Can I start                   singing yet? 
+:gf: !default-closed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Oh yeah, lemme start the song. 

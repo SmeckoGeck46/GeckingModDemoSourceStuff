@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- Nah, I'm just joking lol -->
+	
+	<!-- Setting up the background -->
+	<ui bgImage="Images/backgroundMasked.png" width="812" height="375" layoutMode="relative" bgColor="FF000000" bgMode="top_left">
+	<!-- lol I just took this from the Appendix C and did some modifications, but hey if it works, it works -->
+	<tab name="main">
+      <labeled-knob x="125" y="128" width="90" textSize="16" textColor="FF000000" 
+                    trackForegroundColor="CC000000" trackBackgroundColor="e65ddee3" 
+                    label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.00" >
+        <binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+      </labeled-knob>
+      <labeled-knob x="195" y="128" width="90" textSize="16" textColor="ff000000" 
+                    trackForegroundColor="CC000000" trackBackgroundColor="e65ddee3" 
+                    label="Release" type="float" minValue="0.0" maxValue="5.0" value="0.12" >
+        <binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+      </labeled-knob>
+    </tab>
+	<keyboard>
+        <!-- Look, guys! The keys now have new colors!-->
+        <color loNote="24" hiNote="29" color="ff62a0fb" /> <!--keyswitch stuff-->
+        <color loNote="36" hiNote="85" color="ffda72aa" /> <!--main stuff-->
+    </keyboard>
+	</ui>
+	
+	<midi>
+		<!-- keyswitch stuff -->
+		<note note="24"> <!-- just the "a" vowel -->
+			<binding type="general" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+			<binding type="general" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="5" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+		</note>
+		<note note="25"> <!-- just the "e" vowel -->
+			<binding type="general" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+			<binding type="general" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="5" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+		</note>
+		<note note="26"> <!-- just the "i" vowel -->
+			<binding type="general" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+			<binding type="general" level="group" position="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="5" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+		</note>
+		<note note="27"> <!-- just the "o" vowel -->
+			<binding type="general" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="3" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+			<binding type="general" level="group" position="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="5" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+		</note>
+		<note note="28"> <!-- just the "u" vowel -->
+			<binding type="general" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="4" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+			<binding type="general" level="group" position="5" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+		</note>
+		<note note="29"> <!-- the boring old chromatic scale -->
+			<binding type="general" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="general" level="group" position="5" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+		</note>
+	</midi>
+	
+	<!-- Note: the note range of the samples is 36-85 -->
+	<groups attack="0.000" decay="25" sustain="1.0" release="0.430" volume="6dB">
+		<group enabled="false">
+			<!-- just the "a" vowel -->
+			<!-- mask effect -->
+			<sample rootNote="36" loNote="36" hiNote="36" path="Samples/masked_a01_36.wav" />
+			<sample rootNote="37" loNote="37" hiNote="37" path="Samples/masked_a02_37.wav" />
+			<sample rootNote="38" loNote="38" hiNote="38" path="Samples/masked_a03_38.wav" />
+			<sample rootNote="39" loNote="39" hiNote="39" path="Samples/masked_a04_39.wav" />
+			<sample rootNote="40" loNote="40" hiNote="40" path="Samples/masked_a05_40.wav" />
+			<sample rootNote="41" loNote="41" hiNote="41" path="Samples/masked_a06_41.wav" />
+			<sample rootNote="42" loNote="42" hiNote="42" path="Samples/masked_a07_42.wav" />
+			<sample rootNote="43" loNote="43" hiNote="43" path="Samples/masked_a08_43.wav" />
+			<sample rootNote="44" loNote="44" hiNote="44" path="Samples/masked_a09_44.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" path="Samples/masked_a10_45.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" path="Samples/masked_a11_46.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" path="Samples/masked_a12_47.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" path="Samples/masked_a13_48.wav" />
+			<sample rootNote="49" loNote="49" hiNote="49" path="Samples/masked_a14_49.wav" />
+			<sample rootNote="50" loNote="50" hiNote="50" path="Samples/masked_a15_50.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" path="Samples/masked_a16_51.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" path="Samples/masked_a17_52.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" path="Samples/masked_a18_53.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" path="Samples/masked_a19_54.wav" />
+			<sample rootNote="55" loNote="55" hiNote="55" path="Samples/masked_a20_55.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" path="Samples/masked_a21_56.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" path="Samples/masked_a22_57.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" path="Samples/masked_a23_58.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" path="Samples/masked_a24_59.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" path="Samples/masked_a25_60.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" path="Samples/masked_a26_61.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" path="Samples/masked_a27_62.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" path="Samples/masked_a28_63.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" path="Samples/masked_a29_64.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" path="Samples/masked_a30_65.wav" />
+			<sample rootNote="66" loNote="66" hiNote="66" path="Samples/masked_a31_66.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" path="Samples/masked_a32_67.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" path="Samples/masked_a33_68.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" path="Samples/masked_a34_69.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" path="Samples/masked_a35_70.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" path="Samples/masked_a36_71.wav" />
+			<sample rootNote="72" loNote="72" hiNote="72" path="Samples/masked_a37_72.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" path="Samples/masked_a38_73.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" path="Samples/masked_a39_74.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" path="Samples/masked_a40_75.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" path="Samples/masked_a41_76.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" path="Samples/masked_a42_77.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" path="Samples/masked_a43_78.wav" />
+			<sample rootNote="79" loNote="79" hiNote="79" path="Samples/masked_a44_79.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" path="Samples/masked_a45_80.wav" />
+			<sample rootNote="81" loNote="81" hiNote="81" path="Samples/masked_a46_81.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" path="Samples/masked_a47_82.wav" />
+			<sample rootNote="83" loNote="83" hiNote="83" path="Samples/masked_a48_83.wav" />
+			<sample rootNote="84" loNote="84" hiNote="84" path="Samples/masked_a49_84.wav" />
+			<sample rootNote="85" loNote="85" hiNote="85" path="Samples/masked_a50_85.wav" />
+			<!-- raw samples -->
+			<sample rootNote="36" loNote="36" hiNote="36" volume="-5dB" path="Samples/unmasked_a01_36.wav" />
+			<sample rootNote="37" loNote="37" hiNote="37" volume="-5dB" path="Samples/unmasked_a02_37.wav" />
+			<sample rootNote="38" loNote="38" hiNote="38" volume="-5dB" path="Samples/unmasked_a03_38.wav" />
+			<sample rootNote="39" loNote="39" hiNote="39" volume="-5dB" path="Samples/unmasked_a04_39.wav" />
+			<sample rootNote="40" loNote="40" hiNote="40" volume="-5dB" path="Samples/unmasked_a05_40.wav" />
+			<sample rootNote="41" loNote="41" hiNote="41" volume="-5dB" path="Samples/unmasked_a06_41.wav" />
+			<sample rootNote="42" loNote="42" hiNote="42" volume="-5dB" path="Samples/unmasked_a07_42.wav" />
+			<sample rootNote="43" loNote="43" hiNote="43" volume="-5dB" path="Samples/unmasked_a08_43.wav" />
+			<sample rootNote="44" loNote="44" hiNote="44" volume="-5dB" path="Samples/unmasked_a09_44.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" volume="-5dB" path="Samples/unmasked_a10_45.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" volume="-5dB" path="Samples/unmasked_a11_46.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" volume="-5dB" path="Samples/unmasked_a12_47.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" volume="-5dB" path="Samples/unmasked_a13_48.wav" />
+			<sample rootNote="49" loNote="49" hiNote="49" volume="-5dB" path="Samples/unmasked_a14_49.wav" />
+			<sample rootNote="50" loNote="50" hiNote="50" volume="-5dB" path="Samples/unmasked_a15_50.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" volume="-5dB" path="Samples/unmasked_a16_51.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" volume="-5dB" path="Samples/unmasked_a17_52.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" volume="-5dB" path="Samples/unmasked_a18_53.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" volume="-5dB" path="Samples/unmasked_a19_54.wav" />
+			<sample rootNote="55" loNote="55" hiNote="55" volume="-5dB" path="Samples/unmasked_a20_55.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" volume="-5dB" path="Samples/unmasked_a21_56.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" volume="-5dB" path="Samples/unmasked_a22_57.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" volume="-5dB" path="Samples/unmasked_a23_58.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" volume="-5dB" path="Samples/unmasked_a24_59.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" volume="-5dB" path="Samples/unmasked_a25_60.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" volume="-5dB" path="Samples/unmasked_a26_61.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" volume="-5dB" path="Samples/unmasked_a27_62.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" volume="-5dB" path="Samples/unmasked_a28_63.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" volume="-5dB" path="Samples/unmasked_a29_64.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" volume="-5dB" path="Samples/unmasked_a30_65.wav" />
+			<sample rootNote="66" loNote="66" hiNote="66" volume="-5dB" path="Samples/unmasked_a31_66.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" volume="-5dB" path="Samples/unmasked_a32_67.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" volume="-5dB" path="Samples/unmasked_a33_68.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" volume="-5dB" path="Samples/unmasked_a34_69.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" volume="-5dB" path="Samples/unmasked_a35_70.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" volume="-5dB" path="Samples/unmasked_a36_71.wav" />
+			<sample rootNote="72" loNote="72" hiNote="72" volume="-5dB" path="Samples/unmasked_a37_72.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" volume="-5dB" path="Samples/unmasked_a38_73.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" volume="-5dB" path="Samples/unmasked_a39_74.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" volume="-5dB" path="Samples/unmasked_a40_75.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" volume="-5dB" path="Samples/unmasked_a41_76.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" volume="-5dB" path="Samples/unmasked_a42_77.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" volume="-5dB" path="Samples/unmasked_a43_78.wav" />
+			<sample rootNote="79" loNote="79" hiNote="79" volume="-5dB" path="Samples/unmasked_a44_79.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" volume="-5dB" path="Samples/unmasked_a45_80.wav" />
+			<sample rootNote="81" loNote="81" hiNote="81" volume="-5dB" path="Samples/unmasked_a46_81.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" volume="-5dB" path="Samples/unmasked_a47_82.wav" />
+			<sample rootNote="83" loNote="83" hiNote="83" volume="-5dB" path="Samples/unmasked_a48_83.wav" />
+			<sample rootNote="84" loNote="84" hiNote="84" volume="-5dB" path="Samples/unmasked_a49_84.wav" />
+			<sample rootNote="85" loNote="85" hiNote="85" volume="-5dB" path="Samples/unmasked_a50_85.wav" />
+		</group>
+		<group enabled="false">
+			<!-- just the "e" vowel -->
+			<!-- mask effect -->
+			<sample rootNote="36" loNote="36" hiNote="36" path="Samples/masked_e01_36.wav" />
+			<sample rootNote="37" loNote="37" hiNote="37" path="Samples/masked_e02_37.wav" />
+			<sample rootNote="38" loNote="38" hiNote="38" path="Samples/masked_e03_38.wav" />
+			<sample rootNote="39" loNote="39" hiNote="39" path="Samples/masked_e04_39.wav" />
+			<sample rootNote="40" loNote="40" hiNote="40" path="Samples/masked_e05_40.wav" />
+			<sample rootNote="41" loNote="41" hiNote="41" path="Samples/masked_e06_41.wav" />
+			<sample rootNote="42" loNote="42" hiNote="42" path="Samples/masked_e07_42.wav" />
+			<sample rootNote="43" loNote="43" hiNote="43" path="Samples/masked_e08_43.wav" />
+			<sample rootNote="44" loNote="44" hiNote="44" path="Samples/masked_e09_44.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" path="Samples/masked_e10_45.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" path="Samples/masked_e11_46.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" path="Samples/masked_e12_47.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" path="Samples/masked_e13_48.wav" />
+			<sample rootNote="49" loNote="49" hiNote="49" path="Samples/masked_e14_49.wav" />
+			<sample rootNote="50" loNote="50" hiNote="50" path="Samples/masked_e15_50.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" path="Samples/masked_e16_51.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" path="Samples/masked_e17_52.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" path="Samples/masked_e18_53.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" path="Samples/masked_e19_54.wav" />
+			<sample rootNote="55" loNote="55" hiNote="55" path="Samples/masked_e20_55.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" path="Samples/masked_e21_56.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" path="Samples/masked_e22_57.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" path="Samples/masked_e23_58.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" path="Samples/masked_e24_59.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" path="Samples/masked_e25_60.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" path="Samples/masked_e26_61.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" path="Samples/masked_e27_62.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" path="Samples/masked_e28_63.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" path="Samples/masked_e29_64.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" path="Samples/masked_e30_65.wav" />
+			<sample rootNote="66" loNote="66" hiNote="66" path="Samples/masked_e31_66.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" path="Samples/masked_e32_67.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" path="Samples/masked_e33_68.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" path="Samples/masked_e34_69.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" path="Samples/masked_e35_70.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" path="Samples/masked_e36_71.wav" />
+			<sample rootNote="72" loNote="72" hiNote="72" path="Samples/masked_e37_72.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" path="Samples/masked_e38_73.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" path="Samples/masked_e39_74.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" path="Samples/masked_e40_75.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" path="Samples/masked_e41_76.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" path="Samples/masked_e42_77.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" path="Samples/masked_e43_78.wav" />
+			<sample rootNote="79" loNote="79" hiNote="79" path="Samples/masked_e44_79.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" path="Samples/masked_e45_80.wav" />
+			<sample rootNote="81" loNote="81" hiNote="81" path="Samples/masked_e46_81.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" path="Samples/masked_e47_82.wav" />
+			<sample rootNote="83" loNote="83" hiNote="83" path="Samples/masked_e48_83.wav" />
+			<sample rootNote="84" loNote="84" hiNote="84" path="Samples/masked_e49_84.wav" />
+			<sample rootNote="85" loNote="85" hiNote="85" path="Samples/masked_e50_85.wav" />
+			<!-- raw samples -->
+			<sample rootNote="36" loNote="36" hiNote="36" volume="-5dB" path="Samples/unmasked_e01_36.wav" />
+			<sample rootNote="37" loNote="37" hiNote="37" volume="-5dB" path="Samples/unmasked_e02_37.wav" />
+			<sample rootNote="38" loNote="38" hiNote="38" volume="-5dB" path="Samples/unmasked_e03_38.wav" />
+			<sample rootNote="39" loNote="39" hiNote="39" volume="-5dB" path="Samples/unmasked_e04_39.wav" />
+			<sample rootNote="40" loNote="40" hiNote="40" volume="-5dB" path="Samples/unmasked_e05_40.wav" />
+			<sample rootNote="41" loNote="41" hiNote="41" volume="-5dB" path="Samples/unmasked_e06_41.wav" />
+			<sample rootNote="42" loNote="42" hiNote="42" volume="-5dB" path="Samples/unmasked_e07_42.wav" />
+			<sample rootNote="43" loNote="43" hiNote="43" volume="-5dB" path="Samples/unmasked_e08_43.wav" />
+			<sample rootNote="44" loNote="44" hiNote="44" volume="-5dB" path="Samples/unmasked_e09_44.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" volume="-5dB" path="Samples/unmasked_e10_45.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" volume="-5dB" path="Samples/unmasked_e11_46.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" volume="-5dB" path="Samples/unmasked_e12_47.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" volume="-5dB" path="Samples/unmasked_e13_48.wav" />
+			<sample rootNote="49" loNote="49" hiNote="49" volume="-5dB" path="Samples/unmasked_e14_49.wav" />
+			<sample rootNote="50" loNote="50" hiNote="50" volume="-5dB" path="Samples/unmasked_e15_50.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" volume="-5dB" path="Samples/unmasked_e16_51.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" volume="-5dB" path="Samples/unmasked_e17_52.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" volume="-5dB" path="Samples/unmasked_e18_53.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" volume="-5dB" path="Samples/unmasked_e19_54.wav" />
+			<sample rootNote="55" loNote="55" hiNote="55" volume="-5dB" path="Samples/unmasked_e20_55.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" volume="-5dB" path="Samples/unmasked_e21_56.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" volume="-5dB" path="Samples/unmasked_e22_57.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" volume="-5dB" path="Samples/unmasked_e23_58.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" volume="-5dB" path="Samples/unmasked_e24_59.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" volume="-5dB" path="Samples/unmasked_e25_60.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" volume="-5dB" path="Samples/unmasked_e26_61.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" volume="-5dB" path="Samples/unmasked_e27_62.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" volume="-5dB" path="Samples/unmasked_e28_63.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" volume="-5dB" path="Samples/unmasked_e29_64.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" volume="-5dB" path="Samples/unmasked_e30_65.wav" />
+			<sample rootNote="66" loNote="66" hiNote="66" volume="-5dB" path="Samples/unmasked_e31_66.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" volume="-5dB" path="Samples/unmasked_e32_67.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" volume="-5dB" path="Samples/unmasked_e33_68.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" volume="-5dB" path="Samples/unmasked_e34_69.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" volume="-5dB" path="Samples/unmasked_e35_70.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" volume="-5dB" path="Samples/unmasked_e36_71.wav" />
+			<sample rootNote="72" loNote="72" hiNote="72" volume="-5dB" path="Samples/unmasked_e37_72.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" volume="-5dB" path="Samples/unmasked_e38_73.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" volume="-5dB" path="Samples/unmasked_e39_74.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" volume="-5dB" path="Samples/unmasked_e40_75.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" volume="-5dB" path="Samples/unmasked_e41_76.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" volume="-5dB" path="Samples/unmasked_e42_77.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" volume="-5dB" path="Samples/unmasked_e43_78.wav" />
+			<sample rootNote="79" loNote="79" hiNote="79" volume="-5dB" path="Samples/unmasked_e44_79.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" volume="-5dB" path="Samples/unmasked_e45_80.wav" />
+			<sample rootNote="81" loNote="81" hiNote="81" volume="-5dB" path="Samples/unmasked_e46_81.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" volume="-5dB" path="Samples/unmasked_e47_82.wav" />
+			<sample rootNote="83" loNote="83" hiNote="83" volume="-5dB" path="Samples/unmasked_e48_83.wav" />
+			<sample rootNote="84" loNote="84" hiNote="84" volume="-5dB" path="Samples/unmasked_e49_84.wav" />
+			<sample rootNote="85" loNote="85" hiNote="85" volume="-5dB" path="Samples/unmasked_e50_85.wav" />
+		</group><group enabled="false">
+			<!-- just the "i" vowel -->
+			<!-- mask effect -->
+			<sample rootNote="36" loNote="36" hiNote="36" path="Samples/masked_i01_36.wav" />
+			<sample rootNote="37" loNote="37" hiNote="37" path="Samples/masked_i02_37.wav" />
+			<sample rootNote="38" loNote="38" hiNote="38" path="Samples/masked_i03_38.wav" />
+			<sample rootNote="39" loNote="39" hiNote="39" path="Samples/masked_i04_39.wav" />
+			<sample rootNote="40" loNote="40" hiNote="40" path="Samples/masked_i05_40.wav" />
+			<sample rootNote="41" loNote="41" hiNote="41" path="Samples/masked_i06_41.wav" />
+			<sample rootNote="42" loNote="42" hiNote="42" path="Samples/masked_i07_42.wav" />
+			<sample rootNote="43" loNote="43" hiNote="43" path="Samples/masked_i08_43.wav" />
+			<sample rootNote="44" loNote="44" hiNote="44" path="Samples/masked_i09_44.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" path="Samples/masked_i10_45.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" path="Samples/masked_i11_46.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" path="Samples/masked_i12_47.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" path="Samples/masked_i13_48.wav" />
+			<sample rootNote="49" loNote="49" hiNote="49" path="Samples/masked_i14_49.wav" />
+			<sample rootNote="50" loNote="50" hiNote="50" path="Samples/masked_i15_50.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" path="Samples/masked_i16_51.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" path="Samples/masked_i17_52.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" path="Samples/masked_i18_53.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" path="Samples/masked_i19_54.wav" />
+			<sample rootNote="55" loNote="55" hiNote="55" path="Samples/masked_i20_55.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" path="Samples/masked_i21_56.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" path="Samples/masked_i22_57.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" path="Samples/masked_i23_58.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" path="Samples/masked_i24_59.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" path="Samples/masked_i25_60.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" path="Samples/masked_i26_61.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" path="Samples/masked_i27_62.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" path="Samples/masked_i28_63.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" path="Samples/masked_i29_64.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" path="Samples/masked_i30_65.wav" />
+			<sample rootNote="66" loNote="66" hiNote="66" path="Samples/masked_i31_66.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" path="Samples/masked_i32_67.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" path="Samples/masked_i33_68.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" path="Samples/masked_i34_69.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" path="Samples/masked_i35_70.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" path="Samples/masked_i36_71.wav" />
+			<sample rootNote="72" loNote="72" hiNote="72" path="Samples/masked_i37_72.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" path="Samples/masked_i38_73.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" path="Samples/masked_i39_74.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" path="Samples/masked_i40_75.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" path="Samples/masked_i41_76.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" path="Samples/masked_i42_77.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" path="Samples/masked_i43_78.wav" />
+			<sample rootNote="79" loNote="79" hiNote="79" path="Samples/masked_i44_79.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" path="Samples/masked_i45_80.wav" />
+			<sample rootNote="81" loNote="81" hiNote="81" path="Samples/masked_i46_81.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" path="Samples/masked_i47_82.wav" />
+			<sample rootNote="83" loNote="83" hiNote="83" path="Samples/masked_i48_83.wav" />
+			<sample rootNote="84" loNote="84" hiNote="84" path="Samples/masked_i49_84.wav" />
+			<sample rootNote="85" loNote="85" hiNote="85" path="Samples/masked_i50_85.wav" />
+			<!-- raw samples -->
+			<sample rootNote="36" loNote="36" hiNote="36" volume="-5dB" path="Samples/unmasked_i01_36.wav" />
+			<sample rootNote="37" loNote="37" hiNote="37" volume="-5dB" path="Samples/unmasked_i02_37.wav" />
+			<sample rootNote="38" loNote="38" hiNote="38" volume="-5dB" path="Samples/unmasked_i03_38.wav" />
+			<sample rootNote="39" loNote="39" hiNote="39" volume="-5dB" path="Samples/unmasked_i04_39.wav" />
+			<sample rootNote="40" loNote="40" hiNote="40" volume="-5dB" path="Samples/unmasked_i05_40.wav" />
+			<sample rootNote="41" loNote="41" hiNote="41" volume="-5dB" path="Samples/unmasked_i06_41.wav" />
+			<sample rootNote="42" loNote="42" hiNote="42" volume="-5dB" path="Samples/unmasked_i07_42.wav" />
+			<sample rootNote="43" loNote="43" hiNote="43" volume="-5dB" path="Samples/unmasked_i08_43.wav" />
+			<sample rootNote="44" loNote="44" hiNote="44" volume="-5dB" path="Samples/unmasked_i09_44.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" volume="-5dB" path="Samples/unmasked_i10_45.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" volume="-5dB" path="Samples/unmasked_i11_46.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" volume="-5dB" path="Samples/unmasked_i12_47.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" volume="-5dB" path="Samples/unmasked_i13_48.wav" />
+			<sample rootNote="49" loNote="49" hiNote="49" volume="-5dB" path="Samples/unmasked_i14_49.wav" />
+			<sample rootNote="50" loNote="50" hiNote="50" volume="-5dB" path="Samples/unmasked_i15_50.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" volume="-5dB" path="Samples/unmasked_i16_51.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" volume="-5dB" path="Samples/unmasked_i17_52.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" volume="-5dB" path="Samples/unmasked_i18_53.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" volume="-5dB" path="Samples/unmasked_i19_54.wav" />
+			<sample rootNote="55" loNote="55" hiNote="55" volume="-5dB" path="Samples/unmasked_i20_55.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" volume="-5dB" path="Samples/unmasked_i21_56.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" volume="-5dB" path="Samples/unmasked_i22_57.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" volume="-5dB" path="Samples/unmasked_i23_58.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" volume="-5dB" path="Samples/unmasked_i24_59.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" volume="-5dB" path="Samples/unmasked_i25_60.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" volume="-5dB" path="Samples/unmasked_i26_61.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" volume="-5dB" path="Samples/unmasked_i27_62.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" volume="-5dB" path="Samples/unmasked_i28_63.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" volume="-5dB" path="Samples/unmasked_i29_64.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" volume="-5dB" path="Samples/unmasked_i30_65.wav" />
+			<sample rootNote="66" loNote="66" hiNote="66" volume="-5dB" path="Samples/unmasked_i31_66.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" volume="-5dB" path="Samples/unmasked_i32_67.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" volume="-5dB" path="Samples/unmasked_i33_68.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" volume="-5dB" path="Samples/unmasked_i34_69.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" volume="-5dB" path="Samples/unmasked_i35_70.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" volume="-5dB" path="Samples/unmasked_i36_71.wav" />
+			<sample rootNote="72" loNote="72" hiNote="72" volume="-5dB" path="Samples/unmasked_i37_72.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" volume="-5dB" path="Samples/unmasked_i38_73.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" volume="-5dB" path="Samples/unmasked_i39_74.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" volume="-5dB" path="Samples/unmasked_i40_75.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" volume="-5dB" path="Samples/unmasked_i41_76.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" volume="-5dB" path="Samples/unmasked_i42_77.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" volume="-5dB" path="Samples/unmasked_i43_78.wav" />
+			<sample rootNote="79" loNote="79" hiNote="79" volume="-5dB" path="Samples/unmasked_i44_79.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" volume="-5dB" path="Samples/unmasked_i45_80.wav" />
+			<sample rootNote="81" loNote="81" hiNote="81" volume="-5dB" path="Samples/unmasked_i46_81.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" volume="-5dB" path="Samples/unmasked_i47_82.wav" />
+			<sample rootNote="83" loNote="83" hiNote="83" volume="-5dB" path="Samples/unmasked_i48_83.wav" />
+			<sample rootNote="84" loNote="84" hiNote="84" volume="-5dB" path="Samples/unmasked_i49_84.wav" />
+			<sample rootNote="85" loNote="85" hiNote="85" volume="-5dB" path="Samples/unmasked_i50_85.wav" />
+		</group><group enabled="false">
+			<!-- just the "o" vowel -->
+			<!-- mask effect-->
+			<sample rootNote="36" loNote="36" hiNote="36" path="Samples/masked_o01_36.wav" />
+			<sample rootNote="37" loNote="37" hiNote="37" path="Samples/masked_o02_37.wav" />
+			<sample rootNote="38" loNote="38" hiNote="38" path="Samples/masked_o03_38.wav" />
+			<sample rootNote="39" loNote="39" hiNote="39" path="Samples/masked_o04_39.wav" />
+			<sample rootNote="40" loNote="40" hiNote="40" path="Samples/masked_o05_40.wav" />
+			<sample rootNote="41" loNote="41" hiNote="41" path="Samples/masked_o06_41.wav" />
+			<sample rootNote="42" loNote="42" hiNote="42" path="Samples/masked_o07_42.wav" />
+			<sample rootNote="43" loNote="43" hiNote="43" path="Samples/masked_o08_43.wav" />
+			<sample rootNote="44" loNote="44" hiNote="44" path="Samples/masked_o09_44.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" path="Samples/masked_o10_45.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" path="Samples/masked_o11_46.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" path="Samples/masked_o12_47.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" path="Samples/masked_o13_48.wav" />
+			<sample rootNote="49" loNote="49" hiNote="49" path="Samples/masked_o14_49.wav" />
+			<sample rootNote="50" loNote="50" hiNote="50" path="Samples/masked_o15_50.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" path="Samples/masked_o16_51.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" path="Samples/masked_o17_52.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" path="Samples/masked_o18_53.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" path="Samples/masked_o19_54.wav" />
+			<sample rootNote="55" loNote="55" hiNote="55" path="Samples/masked_o20_55.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" path="Samples/masked_o21_56.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" path="Samples/masked_o22_57.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" path="Samples/masked_o23_58.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" path="Samples/masked_o24_59.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" path="Samples/masked_o25_60.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" path="Samples/masked_o26_61.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" path="Samples/masked_o27_62.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" path="Samples/masked_o28_63.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" path="Samples/masked_o29_64.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" path="Samples/masked_o30_65.wav" />
+			<sample rootNote="66" loNote="66" hiNote="66" path="Samples/masked_o31_66.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" path="Samples/masked_o32_67.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" path="Samples/masked_o33_68.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" path="Samples/masked_o34_69.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" path="Samples/masked_o35_70.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" path="Samples/masked_o36_71.wav" />
+			<sample rootNote="72" loNote="72" hiNote="72" path="Samples/masked_o37_72.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" path="Samples/masked_o38_73.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" path="Samples/masked_o39_74.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" path="Samples/masked_o40_75.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" path="Samples/masked_o41_76.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" path="Samples/masked_o42_77.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" path="Samples/masked_o43_78.wav" />
+			<sample rootNote="79" loNote="79" hiNote="79" path="Samples/masked_o44_79.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" path="Samples/masked_o45_80.wav" />
+			<sample rootNote="81" loNote="81" hiNote="81" path="Samples/masked_o46_81.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" path="Samples/masked_o47_82.wav" />
+			<sample rootNote="83" loNote="83" hiNote="83" path="Samples/masked_o48_83.wav" />
+			<sample rootNote="84" loNote="84" hiNote="84" path="Samples/masked_o49_84.wav" />
+			<sample rootNote="85" loNote="85" hiNote="85" path="Samples/masked_o50_85.wav" />
+			<!-- raw samples -->
+			<sample rootNote="36" loNote="36" hiNote="36" volume="-5dB" path="Samples/unmasked_o01_36.wav" />
+			<sample rootNote="37" loNote="37" hiNote="37" volume="-5dB" path="Samples/unmasked_o02_37.wav" />
+			<sample rootNote="38" loNote="38" hiNote="38" volume="-5dB" path="Samples/unmasked_o03_38.wav" />
+			<sample rootNote="39" loNote="39" hiNote="39" volume="-5dB" path="Samples/unmasked_o04_39.wav" />
+			<sample rootNote="40" loNote="40" hiNote="40" volume="-5dB" path="Samples/unmasked_o05_40.wav" />
+			<sample rootNote="41" loNote="41" hiNote="41" volume="-5dB" path="Samples/unmasked_o06_41.wav" />
+			<sample rootNote="42" loNote="42" hiNote="42" volume="-5dB" path="Samples/unmasked_o07_42.wav" />
+			<sample rootNote="43" loNote="43" hiNote="43" volume="-5dB" path="Samples/unmasked_o08_43.wav" />
+			<sample rootNote="44" loNote="44" hiNote="44" volume="-5dB" path="Samples/unmasked_o09_44.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" volume="-5dB" path="Samples/unmasked_o10_45.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" volume="-5dB" path="Samples/unmasked_o11_46.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" volume="-5dB" path="Samples/unmasked_o12_47.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" volume="-5dB" path="Samples/unmasked_o13_48.wav" />
+			<sample rootNote="49" loNote="49" hiNote="49" volume="-5dB" path="Samples/unmasked_o14_49.wav" />
+			<sample rootNote="50" loNote="50" hiNote="50" volume="-5dB" path="Samples/unmasked_o15_50.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" volume="-5dB" path="Samples/unmasked_o16_51.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" volume="-5dB" path="Samples/unmasked_o17_52.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" volume="-5dB" path="Samples/unmasked_o18_53.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" volume="-5dB" path="Samples/unmasked_o19_54.wav" />
+			<sample rootNote="55" loNote="55" hiNote="55" volume="-5dB" path="Samples/unmasked_o20_55.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" volume="-5dB" path="Samples/unmasked_o21_56.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" volume="-5dB" path="Samples/unmasked_o22_57.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" volume="-5dB" path="Samples/unmasked_o23_58.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" volume="-5dB" path="Samples/unmasked_o24_59.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" volume="-5dB" path="Samples/unmasked_o25_60.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" volume="-5dB" path="Samples/unmasked_o26_61.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" volume="-5dB" path="Samples/unmasked_o27_62.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" volume="-5dB" path="Samples/unmasked_o28_63.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" volume="-5dB" path="Samples/unmasked_o29_64.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" volume="-5dB" path="Samples/unmasked_o30_65.wav" />
+			<sample rootNote="66" loNote="66" hiNote="66" volume="-5dB" path="Samples/unmasked_o31_66.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" volume="-5dB" path="Samples/unmasked_o32_67.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" volume="-5dB" path="Samples/unmasked_o33_68.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" volume="-5dB" path="Samples/unmasked_o34_69.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" volume="-5dB" path="Samples/unmasked_o35_70.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" volume="-5dB" path="Samples/unmasked_o36_71.wav" />
+			<sample rootNote="72" loNote="72" hiNote="72" volume="-5dB" path="Samples/unmasked_o37_72.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" volume="-5dB" path="Samples/unmasked_o38_73.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" volume="-5dB" path="Samples/unmasked_o39_74.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" volume="-5dB" path="Samples/unmasked_o40_75.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" volume="-5dB" path="Samples/unmasked_o41_76.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" volume="-5dB" path="Samples/unmasked_o42_77.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" volume="-5dB" path="Samples/unmasked_o43_78.wav" />
+			<sample rootNote="79" loNote="79" hiNote="79" volume="-5dB" path="Samples/unmasked_o44_79.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" volume="-5dB" path="Samples/unmasked_o45_80.wav" />
+			<sample rootNote="81" loNote="81" hiNote="81" volume="-5dB" path="Samples/unmasked_o46_81.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" volume="-5dB" path="Samples/unmasked_o47_82.wav" />
+			<sample rootNote="83" loNote="83" hiNote="83" volume="-5dB" path="Samples/unmasked_o48_83.wav" />
+			<sample rootNote="84" loNote="84" hiNote="84" volume="-5dB" path="Samples/unmasked_o49_84.wav" />
+			<sample rootNote="85" loNote="85" hiNote="85" volume="-5dB" path="Samples/unmasked_o50_85.wav" />
+		</group>
+		<group enabled="false">
+			<!-- just the "u" vowel -->
+			<!-- mask effect -->
+			<sample rootNote="36" loNote="36" hiNote="36" path="Samples/masked_u01_36.wav" />
+			<sample rootNote="37" loNote="37" hiNote="37" path="Samples/masked_u02_37.wav" />
+			<sample rootNote="38" loNote="38" hiNote="38" path="Samples/masked_u03_38.wav" />
+			<sample rootNote="39" loNote="39" hiNote="39" path="Samples/masked_u04_39.wav" />
+			<sample rootNote="40" loNote="40" hiNote="40" path="Samples/masked_u05_40.wav" />
+			<sample rootNote="41" loNote="41" hiNote="41" path="Samples/masked_u06_41.wav" />
+			<sample rootNote="42" loNote="42" hiNote="42" path="Samples/masked_u07_42.wav" />
+			<sample rootNote="43" loNote="43" hiNote="43" path="Samples/masked_u08_43.wav" />
+			<sample rootNote="44" loNote="44" hiNote="44" path="Samples/masked_u09_44.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" path="Samples/masked_u10_45.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" path="Samples/masked_u11_46.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" path="Samples/masked_u12_47.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" path="Samples/masked_u13_48.wav" />
+			<sample rootNote="49" loNote="49" hiNote="49" path="Samples/masked_u14_49.wav" />
+			<sample rootNote="50" loNote="50" hiNote="50" path="Samples/masked_u15_50.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" path="Samples/masked_u16_51.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" path="Samples/masked_u17_52.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" path="Samples/masked_u18_53.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" path="Samples/masked_u19_54.wav" />
+			<sample rootNote="55" loNote="55" hiNote="55" path="Samples/masked_u20_55.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" path="Samples/masked_u21_56.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" path="Samples/masked_u22_57.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" path="Samples/masked_u23_58.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" path="Samples/masked_u24_59.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" path="Samples/masked_u25_60.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" path="Samples/masked_u26_61.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" path="Samples/masked_u27_62.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" path="Samples/masked_u28_63.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" path="Samples/masked_u29_64.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" path="Samples/masked_u30_65.wav" />
+			<sample rootNote="66" loNote="66" hiNote="66" path="Samples/masked_u31_66.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" path="Samples/masked_u32_67.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" path="Samples/masked_u33_68.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" path="Samples/masked_u34_69.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" path="Samples/masked_u35_70.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" path="Samples/masked_u36_71.wav" />
+			<sample rootNote="72" loNote="72" hiNote="72" path="Samples/masked_u37_72.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" path="Samples/masked_u38_73.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" path="Samples/masked_u39_74.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" path="Samples/masked_u40_75.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" path="Samples/masked_u41_76.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" path="Samples/masked_u42_77.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" path="Samples/masked_u43_78.wav" />
+			<sample rootNote="79" loNote="79" hiNote="79" path="Samples/masked_u44_79.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" path="Samples/masked_u45_80.wav" />
+			<sample rootNote="81" loNote="81" hiNote="81" path="Samples/masked_u46_81.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" path="Samples/masked_u47_82.wav" />
+			<sample rootNote="83" loNote="83" hiNote="83" path="Samples/masked_u48_83.wav" />
+			<sample rootNote="84" loNote="84" hiNote="84" path="Samples/masked_u49_84.wav" />
+			<sample rootNote="85" loNote="85" hiNote="85" path="Samples/masked_u50_85.wav" />
+			<!-- raw samples -->
+			<sample rootNote="36" loNote="36" hiNote="36" volume="-5dB" path="Samples/unmasked_u01_36.wav" />
+			<sample rootNote="37" loNote="37" hiNote="37" volume="-5dB" path="Samples/unmasked_u02_37.wav" />
+			<sample rootNote="38" loNote="38" hiNote="38" volume="-5dB" path="Samples/unmasked_u03_38.wav" />
+			<sample rootNote="39" loNote="39" hiNote="39" volume="-5dB" path="Samples/unmasked_u04_39.wav" />
+			<sample rootNote="40" loNote="40" hiNote="40" volume="-5dB" path="Samples/unmasked_u05_40.wav" />
+			<sample rootNote="41" loNote="41" hiNote="41" volume="-5dB" path="Samples/unmasked_u06_41.wav" />
+			<sample rootNote="42" loNote="42" hiNote="42" volume="-5dB" path="Samples/unmasked_u07_42.wav" />
+			<sample rootNote="43" loNote="43" hiNote="43" volume="-5dB" path="Samples/unmasked_u08_43.wav" />
+			<sample rootNote="44" loNote="44" hiNote="44" volume="-5dB" path="Samples/unmasked_u09_44.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" volume="-5dB" path="Samples/unmasked_u10_45.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" volume="-5dB" path="Samples/unmasked_u11_46.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" volume="-5dB" path="Samples/unmasked_u12_47.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" volume="-5dB" path="Samples/unmasked_u13_48.wav" />
+			<sample rootNote="49" loNote="49" hiNote="49" volume="-5dB" path="Samples/unmasked_u14_49.wav" />
+			<sample rootNote="50" loNote="50" hiNote="50" volume="-5dB" path="Samples/unmasked_u15_50.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" volume="-5dB" path="Samples/unmasked_u16_51.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" volume="-5dB" path="Samples/unmasked_u17_52.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" volume="-5dB" path="Samples/unmasked_u18_53.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" volume="-5dB" path="Samples/unmasked_u19_54.wav" />
+			<sample rootNote="55" loNote="55" hiNote="55" volume="-5dB" path="Samples/unmasked_u20_55.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" volume="-5dB" path="Samples/unmasked_u21_56.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" volume="-5dB" path="Samples/unmasked_u22_57.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" volume="-5dB" path="Samples/unmasked_u23_58.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" volume="-5dB" path="Samples/unmasked_u24_59.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" volume="-5dB" path="Samples/unmasked_u25_60.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" volume="-5dB" path="Samples/unmasked_u26_61.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" volume="-5dB" path="Samples/unmasked_u27_62.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" volume="-5dB" path="Samples/unmasked_u28_63.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" volume="-5dB" path="Samples/unmasked_u29_64.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" volume="-5dB" path="Samples/unmasked_u30_65.wav" />
+			<sample rootNote="66" loNote="66" hiNote="66" volume="-5dB" path="Samples/unmasked_u31_66.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" volume="-5dB" path="Samples/unmasked_u32_67.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" volume="-5dB" path="Samples/unmasked_u33_68.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" volume="-5dB" path="Samples/unmasked_u34_69.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" volume="-5dB" path="Samples/unmasked_u35_70.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" volume="-5dB" path="Samples/unmasked_u36_71.wav" />
+			<sample rootNote="72" loNote="72" hiNote="72" volume="-5dB" path="Samples/unmasked_u37_72.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" volume="-5dB" path="Samples/unmasked_u38_73.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" volume="-5dB" path="Samples/unmasked_u39_74.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" volume="-5dB" path="Samples/unmasked_u40_75.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" volume="-5dB" path="Samples/unmasked_u41_76.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" volume="-5dB" path="Samples/unmasked_u42_77.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" volume="-5dB" path="Samples/unmasked_u43_78.wav" />
+			<sample rootNote="79" loNote="79" hiNote="79" volume="-5dB" path="Samples/unmasked_u44_79.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" volume="-5dB" path="Samples/unmasked_u45_80.wav" />
+			<sample rootNote="81" loNote="81" hiNote="81" volume="-5dB" path="Samples/unmasked_u46_81.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" volume="-5dB" path="Samples/unmasked_u47_82.wav" />
+			<sample rootNote="83" loNote="83" hiNote="83" volume="-5dB" path="Samples/unmasked_u48_83.wav" />
+			<sample rootNote="84" loNote="84" hiNote="84" volume="-5dB" path="Samples/unmasked_u49_84.wav" />
+			<sample rootNote="85" loNote="85" hiNote="85" volume="-5dB" path="Samples/unmasked_u50_85.wav" />
+		</group>
+		<group enabled="true">
+			<!-- the boring old chromatic scale, always on for those who are lazy -->
+			<!-- mask effect -->
+			<sample rootNote="36" loNote="36" hiNote="36" path="Samples/boring-chromatic/sweetMasked01.wav" />
+			<sample rootNote="37" loNote="37" hiNote="37" path="Samples/boring-chromatic/sweetMasked02.wav" />
+			<sample rootNote="38" loNote="38" hiNote="38" path="Samples/boring-chromatic/sweetMasked03.wav" />
+			<sample rootNote="39" loNote="39" hiNote="39" path="Samples/boring-chromatic/sweetMasked04.wav" />
+			<sample rootNote="40" loNote="40" hiNote="40" path="Samples/boring-chromatic/sweetMasked05.wav" />
+			<sample rootNote="41" loNote="41" hiNote="41" path="Samples/boring-chromatic/sweetMasked06.wav" />
+			<sample rootNote="42" loNote="42" hiNote="42" path="Samples/boring-chromatic/sweetMasked07.wav" />
+			<sample rootNote="43" loNote="43" hiNote="43" path="Samples/boring-chromatic/sweetMasked08.wav" />
+			<sample rootNote="44" loNote="44" hiNote="44" path="Samples/boring-chromatic/sweetMasked09.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" path="Samples/boring-chromatic/sweetMasked10.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" path="Samples/boring-chromatic/sweetMasked11.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" path="Samples/boring-chromatic/sweetMasked12.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" path="Samples/boring-chromatic/sweetMasked13.wav" />
+			<sample rootNote="49" loNote="49" hiNote="49" path="Samples/boring-chromatic/sweetMasked14.wav" />
+			<sample rootNote="50" loNote="50" hiNote="50" path="Samples/boring-chromatic/sweetMasked15.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" path="Samples/boring-chromatic/sweetMasked16.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" path="Samples/boring-chromatic/sweetMasked17.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" path="Samples/boring-chromatic/sweetMasked18.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" path="Samples/boring-chromatic/sweetMasked19.wav" />
+			<sample rootNote="55" loNote="55" hiNote="55" path="Samples/boring-chromatic/sweetMasked20.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" path="Samples/boring-chromatic/sweetMasked21.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" path="Samples/boring-chromatic/sweetMasked22.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" path="Samples/boring-chromatic/sweetMasked23.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" path="Samples/boring-chromatic/sweetMasked24.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" path="Samples/boring-chromatic/sweetMasked25.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" path="Samples/boring-chromatic/sweetMasked26.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" path="Samples/boring-chromatic/sweetMasked27.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" path="Samples/boring-chromatic/sweetMasked28.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" path="Samples/boring-chromatic/sweetMasked29.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" path="Samples/boring-chromatic/sweetMasked30.wav" />
+			<sample rootNote="66" loNote="66" hiNote="66" path="Samples/boring-chromatic/sweetMasked31.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" path="Samples/boring-chromatic/sweetMasked32.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" path="Samples/boring-chromatic/sweetMasked33.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" path="Samples/boring-chromatic/sweetMasked34.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" path="Samples/boring-chromatic/sweetMasked35.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" path="Samples/boring-chromatic/sweetMasked36.wav" />
+			<sample rootNote="72" loNote="72" hiNote="72" path="Samples/boring-chromatic/sweetMasked37.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" path="Samples/boring-chromatic/sweetMasked38.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" path="Samples/boring-chromatic/sweetMasked39.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" path="Samples/boring-chromatic/sweetMasked40.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" path="Samples/boring-chromatic/sweetMasked41.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" path="Samples/boring-chromatic/sweetMasked42.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" path="Samples/boring-chromatic/sweetMasked43.wav" />
+			<sample rootNote="79" loNote="79" hiNote="79" path="Samples/boring-chromatic/sweetMasked44.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" path="Samples/boring-chromatic/sweetMasked45.wav" />
+			<sample rootNote="81" loNote="81" hiNote="81" path="Samples/boring-chromatic/sweetMasked46.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" path="Samples/boring-chromatic/sweetMasked47.wav" />
+			<sample rootNote="83" loNote="83" hiNote="83" path="Samples/boring-chromatic/sweetMasked48.wav" />
+			<sample rootNote="84" loNote="84" hiNote="84" path="Samples/boring-chromatic/sweetMasked49.wav" />
+			<sample rootNote="85" loNote="85" hiNote="85" path="Samples/boring-chromatic/sweetMasked50.wav" />
+			<!-- raw samples -->
+			<sample rootNote="36" loNote="36" hiNote="36" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked01.wav" />
+			<sample rootNote="37" loNote="37" hiNote="37" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked02.wav" />
+			<sample rootNote="38" loNote="38" hiNote="38" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked03.wav" />
+			<sample rootNote="39" loNote="39" hiNote="39" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked04.wav" />
+			<sample rootNote="40" loNote="40" hiNote="40" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked05.wav" />
+			<sample rootNote="41" loNote="41" hiNote="41" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked06.wav" />
+			<sample rootNote="42" loNote="42" hiNote="42" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked07.wav" />
+			<sample rootNote="43" loNote="43" hiNote="43" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked08.wav" />
+			<sample rootNote="44" loNote="44" hiNote="44" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked09.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked10.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked11.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked12.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked13.wav" />
+			<sample rootNote="49" loNote="49" hiNote="49" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked14.wav" />
+			<sample rootNote="50" loNote="50" hiNote="50" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked15.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked16.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked17.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked18.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked19.wav" />
+			<sample rootNote="55" loNote="55" hiNote="55" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked20.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked21.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked22.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked23.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked24.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked25.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked26.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked27.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked28.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked29.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked30.wav" />
+			<sample rootNote="66" loNote="66" hiNote="66" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked31.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked32.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked33.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked34.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked35.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked36.wav" />
+			<sample rootNote="72" loNote="72" hiNote="72" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked37.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked38.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked39.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked40.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked41.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked42.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked43.wav" />
+			<sample rootNote="79" loNote="79" hiNote="79" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked44.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked45.wav" />
+			<sample rootNote="81" loNote="81" hiNote="81" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked46.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked47.wav" />
+			<sample rootNote="83" loNote="83" hiNote="83" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked48.wav" />
+			<sample rootNote="84" loNote="84" hiNote="84" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked49.wav" />
+			<sample rootNote="85" loNote="85" hiNote="85" volume="-5dB" path="Samples/boring-chromatic/sweetUnmasked50.wav" />
+		</group>
+	</groups>
+	
+	
+	
+</DecentSampler>
+<!-- People should press the sun in the sneaky ending. -->

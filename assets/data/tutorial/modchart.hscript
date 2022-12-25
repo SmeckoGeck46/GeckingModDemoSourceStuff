@@ -1,0 +1,80 @@
+function start(song) {
+    setDefaultZoomOld(1);
+
+}
+
+
+function beatHit(beat)
+{
+    if (dad.curCharacter == 'gf') {
+        switch (beat) {
+            case 115:
+                switchCharacter('n-frenzy','dad');
+                switchCharacter('gf','dad');
+        }
+    }
+    if (dad.curCharacter == 'n-normal' || !dad.curCharacter == 'n-frenzy') {
+        switch (beat) {
+            case 115:
+                switchCharacter('n-frenzy','dad');
+                switchCharacter('n-normal','dad');
+        }
+    }
+    
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+    if (dad.curCharacter == 'gf') { //when GF is in charge of the tutorial
+        if (curStep == 124){
+            boyfriend.playAnim('hey');
+            dad.playAnim('cheer');
+        } 
+        if (curStep == 188){
+            boyfriend.playAnim('hey');
+            dad.playAnim('cheer');
+        }
+    } 
+	if (dad.curCharacter == 'n-normal' || dad.curCharacter == 'n-frenzy'){ //when N is in charge of the tutorial
+        if (curStep == 124){
+            boyfriend.playAnim('hey');
+            gf.playAnim('cheer');
+        } 
+        if (curStep == 188){
+            boyfriend.playAnim('hey');
+            gf.playAnim('cheer');
+        }
+    }
+}
+
+function playerTwoTurn()
+{
+    if (dad.curCharacter == 'gf') //only works if GF's in charge
+        setDefaultZoomOld(1.4);
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+   setDefaultZoomOld(1.0);
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing() { //code that healths the bar
+	if(currentPlayState.demoMode) //healths the bar in demo mode only
+		currentPlayState.health += 0.02;
+}

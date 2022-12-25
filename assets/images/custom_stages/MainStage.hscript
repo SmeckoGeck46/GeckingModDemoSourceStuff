@@ -1,0 +1,86 @@
+function start(song) {
+
+    var beaster1 = new FlxSprite(-1500, -1500).loadGraphic(hscriptPath + 'beasterbunnystage1.png');
+    beaster1.scrollFactor.set(0.2, 0.2);
+    beaster1.antialiasing = true;
+	beaster1.setGraphicSize(Std.int(0.6 * beaster1.width));
+    addSprite(beaster1, BEHIND_ALL);
+	
+	var beaster2 = new FlxSprite(-1500, -1500).loadGraphic(hscriptPath + 'beasterbunnystage2.png');
+    beaster2.scrollFactor.set(0.5, 0.5);
+    beaster2.antialiasing = true;
+	beaster2.setGraphicSize(Std.int(0.6 * beaster2.width));
+    addSprite(beaster2, BEHIND_ALL);
+	
+	var beaster3 = new FlxSprite(-1400, -1600).loadGraphic(hscriptPath + 'beasterbunnystage3.png');
+    beaster3.scrollFactor.set(1, 1);
+    beaster3.antialiasing = true;
+    addSprite(beaster3, BEHIND_ALL);
+	
+	//mic dummy, intended for mic and character placement
+	/*var dummy = new FlxSprite(-1400, -1600).loadGraphic(hscriptPath + 'mic_yesDUMMY.png');
+    dummy.scrollFactor.set(1, 1);
+    dummy.antialiasing = true;
+    addSprite(dummy, BEHIND_ALL);*/
+	
+	//actual mic
+	var schmoes = new FlxSprite(300, 450).loadGraphic(hscriptPath + 'mic_notDUMMY.png');
+    schmoes.scrollFactor.set(1, 1);
+    schmoes.antialiasing = true;
+    addSprite(schmoes);
+	
+    setDefaultZoom(0.6); //og zoom is 0.6, test zoom for placement is 0.1
+	getHaxeActor("bf").x += 250;
+	getHaxeActor("dad").x -= 200;
+	getHaxeActor("gf").y -= 125;
+	
+	getHaxeActor('dad').followCamX += 300;
+	getHaxeActor('bf').followCamX -= 296;
+	
+	switch (boyfriend.curCharacter) {
+		case 'bf':
+			getHaxeActor('bf').followCamY -= 100;
+		case 'n-normal':
+			getHaxeActor('bf').followCamY -= 0;
+	}
+    
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

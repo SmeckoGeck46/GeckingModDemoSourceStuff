@@ -1,0 +1,67 @@
+function start(song) {
+
+	getHaxeActor("dad").x -= 100;
+	getHaxeActor("bf").x += 200;
+	
+	if (boyfriend.curCharacter == 'bf') {		
+		getHaxeActor("bf").y += 50;
+		getHaxeActor("bf").followCamY -= 75;
+	}
+	
+	
+	getHaxeActor("dad").followCamX += 80;
+    getHaxeActor("bf").followCamX -= 275;
+	
+    setDefaultZoom(0.7);
+	
+	
+	var planning = new FlxSprite(-1200, -800).loadGraphic(hscriptPath + 'thanksdamian.png');
+	planning.setGraphicSize(Std.int(0.85 * planning.width));
+    planning.antialiasing = true;
+    addSprite(planning, BEHIND_ALL);
+    
+	var frontstuff = new FlxSprite(-1200, -800).loadGraphic(hscriptPath + 'front stuff.png');
+	frontstuff.setGraphicSize(Std.int(0.85 * frontstuff.width));
+    frontstuff.antialiasing = true;
+    addSprite(frontstuff, BEHIND_NONE);
+    
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

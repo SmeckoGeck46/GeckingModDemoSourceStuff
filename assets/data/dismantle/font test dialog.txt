@@ -1,0 +1,7 @@
+[178[ [179[ [223[ [216[ |N_Cutscene_1| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:n-normal: !happy-fight! [Funkin[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Test time
+:n-normal: !WARM-fight! [Gabriele Black Ribbon FG Regular[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-shrekteeth^ !#FF000000! ?#FFFFFFFF? .. ~~      OMG IT'S A FREE TYPREWRITER FONT THAT I CAN USE FOR PERSONAL AND COMMERCIAL USE
+:n-normal: !SWEET-fight! [Gabriele Black Ribbon FG Regular[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-shrekteeth^ !#FF000000! ?#FFFFFFFF? .. ~~      YOU DON'T SEE THOSE EVERYDAY
+:bf: !relaxed! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^bfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Bep.
+:gf: !default-open! [Funkin[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Neat.
+:n-normal: !coolboi-fight! [Funkin[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Indeed.

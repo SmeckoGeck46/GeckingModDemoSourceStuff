@@ -1,0 +1,80 @@
+trace("a");
+// char is a Character
+function init(char) {
+    trace("harambe");
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
+    trace("Fun fact: this works with Matt, Tom, and Edd");
+    char.frames = tex;
+    char.animation.addByPrefix('idle', 'Tom idle', 31, false);
+    char.animation.addByPrefix('singLEFT','Tom left0', 24, false);
+    char.animation.addByPrefix('singRIGHT', 'Tom right0', 24, false);
+    char.animation.addByPrefix('singUP', 'Tom up0', 24, false);
+    char.animation.addByPrefix('singDOWN', 'Tom down0', 24, false);
+    char.animation.addByPrefix('singLEFTmiss','Tom left MISS', 24, false);
+    char.animation.addByPrefix('singRIGHTmiss', 'Tom right MISS', 24, false);
+    char.animation.addByPrefix('singUPmiss', 'Tom up MISS', 24, false);
+    char.animation.addByPrefix('singDOWNmiss', 'Tom down MISS', 24, false);
+	char.animation.addByPrefix('firstDeath', 'Tom lose A', 24, false);
+    char.animation.addByPrefix('deathLoop', 'Tom lose B', 24, true);
+    char.animation.addByPrefix('deathConfirm', 'Tom up0', 24, false);
+    if (char.isPlayer) {
+
+        char.followCamX = 20;
+        char.followCamY = 10;
+
+    } else {
+
+        char.followCamX = 59;
+		char.followCamY = -100;
+        
+    }
+
+    char.addOffset('idle',0);
+    char.addOffset('singUP', 0);
+    char.addOffset('singLEFT', 0);
+    char.addOffset('singRIGHT', 0);
+    char.addOffset('singDOWN', 0);
+    char.addOffset('singUPmiss', 0);
+    char.addOffset('singRIGHTmiss', 0);
+    char.addOffset('singLEFTmiss', 0);
+    char.addOffset('singDOWNmiss', 0);
+	char.addOffset('firstDeath',0);
+    char.addOffset('deathLoop',0);
+    char.addOffset('deathConfirm',0);
+
+    char.playAnim('idle');
+
+    char.flipX = false;
+	
+	char.antialiasing = true;
+    char.enemyOffsetX = 0;
+    char.enemyOffsetY = 50;
+    char.playerOffsetX = 0;
+    char.playerOffsetY = -300;
+    char.midpointX = 0;
+    char.midpointY = 0;
+    //test thingy for the colors
+    if (char.curCharacter == "geckTom") {
+        char.enemyColor = 0xFF3453A1;
+		char.playerColor = 0xFF3453A1;
+    } else if (char.curCharacter == "geckMatt") {
+        char.enemyColor = 0xFF8A34A1;
+		char.playerColor = 0xFF8A34A1;
+    } else if (char.curCharacter == "geckEdd") {
+        char.enemyColor = 0xFF35A135;
+		char.playerColor = 0xFF35A135;
+    }
+    
+}
+portraitOffset = [0, 0];
+dadVar = 4.0;
+isPixel = false;
+
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+    trace("it's pretty swell");
+    char.playAnim('idle');
+}

@@ -1,0 +1,10 @@
+{
+    "curName": "gfDance",
+    "curX": 500,
+    "curY": 50,
+    "curFPS": 24,
+    "shouldScale": false,
+    "curScale": 1,
+    "isPixel": false,
+    "animationType": "gfIdle"
+}

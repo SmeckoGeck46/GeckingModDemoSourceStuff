@@ -1,0 +1,58 @@
+{
+  "songs": [
+    ["tutorial selected","Tutorial"],
+    ["edd demo", "Vanity", "Ingoobelyblench","Bacon-Cola"],
+    ["star demo", "Star-Walker", "Pipis-Song"],
+    ["anthony paddle demo", "Disembodied-Voice","Dismantle"],
+    ["mayhem demo", "Sugar-and-Spice","Boba"]
+  ],
+  "weekNames": [
+    "Please play the tutorial first",
+    "Just Another Eddsworld Mod Demo",
+    "The Original Starwalker and Friends Demo",
+    "VS N Demo",
+	"Friday Night Brickin with General Mayhem"
+  ],
+  "characters": [
+    ["nothing", "bf", "gf"],
+    ["edward-planet", "bf", "gf"],
+    ["starwalker", "bf", "gf"],
+    ["anthony-paddle", "bf", "gf"],
+    ["sweet-mayhem", "bf", "gf"]
+  ],
+  "weeks": [
+    {
+      "songs": ["Tutorial"],
+      "name": "Please play the tutorial first",
+      "animation": "tutorial selected",
+      "dad": "nothing",
+      "bf": "bf",
+      "gf": "gf"
+    },
+    {
+      "songs": ["Vanity", "Ingoobelyblench","Bacon-Cola"],
+      "name": "Just Another Eddsworld Mod Demo",
+      "animation": "edd demo",
+      "dad": "edward-planet"
+    },
+    {
+      "songs": ["Star-Walker", "Pipis-Song"],
+      "animation": "star demo",
+      "name": "The Original Starwalker and Friends Demo",
+      "dad": "starwalker"
+    },
+    {
+      "songs": ["Disembodied-Voice","Dismantle"],
+      "animation": "anthony paddle demo",
+      "name": "VS N Demo",
+      "dad": "anthony-paddle"
+    },{
+      "songs": ["Sugar-and-Spice","Boba"],
+      "animation": "mayhem demo",
+      "name": "Friday Night Brickin with General Mayhem Demo",
+      "dad": "sweet-mayhem"
+    }
+
+  ],
+  "version": 2
+}

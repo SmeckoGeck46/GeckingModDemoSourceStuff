@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pixel_delta take 2.png">
+<SubTexture name="open0000" x="0" y="0" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="open0001" x="174" y="0" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="open0002" x="348" y="0" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="open0003" x="522" y="0" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="open0004" x="0" y="56" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0000" x="174" y="56" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0001" x="174" y="56" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0002" x="348" y="56" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0003" x="348" y="56" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0004" x="522" y="56" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0005" x="522" y="56" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0006" x="0" y="112" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0007" x="0" y="112" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0008" x="174" y="112" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0009" x="174" y="112" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0010" x="0" y="112" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0011" x="0" y="112" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0012" x="522" y="56" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0013" x="522" y="56" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0014" x="348" y="56" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+<SubTexture name="normal0015" x="348" y="56" width="174" height="56" frameX="0" frameY="0" frameWidth="174" frameHeight="56" />
+</TextureAtlas>

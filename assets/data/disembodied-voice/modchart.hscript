@@ -1,0 +1,75 @@
+function start(song) { //preload stuff
+
+	//initialize this so that the ending character swap doesn't lag on the first run
+	switchCharacter('n-frenzy','dad');
+	switchCharacter('n-normal','dad');
+	getHaxeActor("dad").followCamX += 80;
+	getHaxeActor("dad").x -= 100;
+}
+
+
+function beatHit(beat)
+{
+    switch (beat) {
+        case 224: //SHREK  TEETH
+			FlxG.camera.flash(0xFFFFFF, 0.8);
+			switchCharacter('n-frenzy','dad'); //this lags on the first run, but whatever
+			FlxG.sound.play(FNFAssets.getSound('assets/sounds/thunder_2' + TitleState.soundExt));
+			getHaxeActor("dad").x -= 100;
+		case 288: //back to normal
+			FlxG.camera.flash(0xFFFFFF, 0.8);
+			switchCharacter('n-normal','dad');
+			FlxG.sound.play(FNFAssets.getSound('assets/sounds/thunder_2' + TitleState.soundExt));
+			getHaxeActor("dad").followCamX += 80;
+			getHaxeActor("dad").x -= 100;
+		case 326: //SHREK  TEETH again
+			FlxG.camera.flash(0xFFFFFF, 0.8);
+			switchCharacter('n-frenzy','dad');
+			getHaxeActor("dad").x -= 100;
+			FlxG.sound.play(FNFAssets.getSound('assets/sounds/Lights_Shut_off' + TitleState.soundExt));
+			FlxG.sound.play(FNFAssets.getSound('assets/sounds/thunder_2' + TitleState.soundExt));
+		case 334: //ending swap workaround
+			switchCharacter('n-normal','dad');
+			switchCharacter('n-frenzy','dad');
+			getHaxeActor("dad").followCamX += 80;
+			getHaxeActor("dad").x -= 100;
+    }
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+if (curStep >= 896 && curStep < 1152){ //Health drain during N's hyper moments
+		if (currentPlayState.health > 0.25)
+			currentPlayState.health -= 0.02;
+    }
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing() { //code that healths the bar
+	if(currentPlayState.demoMode) //healths the bar in demo mode only
+		currentPlayState.health += 0.02;
+}

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Shrek Teeth FIGHT Redo.png">
+<!-- this is called "SODA" because I felt like referencing the obamna SODA meme -->
+<SubTexture name="Shrek Teeth Down Shark FIGHT0000" x="0" y="6999" width="2020" height="759" frameX="-116" frameY="-444" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Down Shark FIGHT0001" x="2020" y="6999" width="2021" height="745" frameX="-118" frameY="-458" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Down Shark FIGHT0002" x="4041" y="6999" width="2021" height="736" frameX="-120" frameY="-467" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Down Shark FIGHT0003" x="6062" y="6999" width="2021" height="732" frameX="-120" frameY="-471" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Down Shark FIGHT0004" x="6062" y="6999" width="2021" height="732" frameX="-120" frameY="-471" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Idle Shark FIGHT0000" x="3705" y="0" width="2029" height="960" frameX="-16" frameY="-318" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Idle Shark FIGHT0001" x="2032" y="4239" width="2034" height="954" frameX="-15" frameY="-324" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Idle Shark FIGHT0002" x="0" y="5196" width="2043" height="935" frameX="-14" frameY="-343" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Idle Shark FIGHT0003" x="4090" y="5196" width="2053" height="903" frameX="-15" frameY="-373" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Idle Shark FIGHT0004" x="2043" y="5196" width="2047" height="929" frameX="-13" frameY="-349" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Idle Shark FIGHT0005" x="5734" y="0" width="2039" height="946" frameX="-14" frameY="-332" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Idle Shark FIGHT0006" x="0" y="4239" width="2032" height="957" frameX="-15" frameY="-321" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Idle Shark FIGHT0007" x="3705" y="960" width="2029" height="960" frameX="-16" frameY="-318" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Idle Shark FIGHT0008" x="3705" y="1920" width="2029" height="960" frameX="-16" frameY="-318" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Idle Shark FIGHT0009" x="0" y="3279" width="2029" height="960" frameX="-16" frameY="-318" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Idle Shark FIGHT0010" x="2029" y="3279" width="2029" height="960" frameX="-16" frameY="-318" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Idle Shark FIGHT0011" x="3705" y="0" width="2029" height="960" frameX="-16" frameY="-318" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Left Shark FIGHT0000" x="0" y="6131" width="2004" height="868" frameX="-68" frameY="-243" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Left Shark FIGHT0001" x="5734" y="3652" width="1991" height="891" frameX="-67" frameY="-220" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Left Shark FIGHT0002" x="5734" y="1855" width="1974" height="905" frameX="-68" frameY="-205" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Left Shark FIGHT0003" x="5734" y="946" width="1958" height="909" frameX="-68" frameY="-200" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Left Shark FIGHT0004" x="5734" y="946" width="1958" height="909" frameX="-68" frameY="-200" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Right Shark FIGHT0000" x="5734" y="2760" width="1983" height="892" frameX="-70" frameY="-285" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Right Shark FIGHT0001" x="2004" y="6131" width="2006" height="858" frameX="-66" frameY="-318" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Right Shark FIGHT0002" x="4010" y="6131" width="2014" height="835" frameX="-67" frameY="-340" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Right Shark FIGHT0003" x="7773" y="0" width="2017" height="825" frameX="-68" frameY="-349" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Right Shark FIGHT0004" x="7773" y="825" width="2017" height="825" frameX="-68" frameY="-349" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Up Shark FIGHT0000" x="0" y="2208" width="1896" height="1071" frameX="-2" frameY="-193" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Up Shark FIGHT0001" x="0" y="1114" width="1872" height="1094" frameX="-16" frameY="-170" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Up Shark FIGHT0002" x="1849" y="0" width="1856" height="1109" frameX="-25" frameY="-155" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Up Shark FIGHT0003" x="0" y="0" width="1849" height="1114" frameX="-29" frameY="-149" frameWidth="2136" frameHeight="1269" />
+<SubTexture name="Shrek Teeth Up Shark FIGHT0004" x="0" y="0" width="1849" height="1114" frameX="-29" frameY="-149" frameWidth="2136" frameHeight="1269" />
+</TextureAtlas>

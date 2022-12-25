@@ -1,0 +1,1 @@
+This was the "mods" folder, but I repurposed it to give people access to the chromatic scales and UTAU voicebanks and stuff.

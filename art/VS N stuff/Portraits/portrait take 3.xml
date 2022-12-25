@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="portrait take 3.png"><SubTexture name="normal-play0000" x="0" y="0" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="happy-play0000" x="472" y="0" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="nervous-play0000" x="944" y="0" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="scared-play0000" x="1416" y="0" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="coolboi-play0000" x="0" y="389" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="WARM-play0000" x="472" y="389" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="SWEET-play0000" x="944" y="389" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="pokerface-play0000" x="1416" y="389" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="normal-fight0000" x="0" y="778" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="happy-fight0000" x="472" y="778" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="nervous-fight0000" x="944" y="778" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="scared-fight0000" x="1416" y="778" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="coolboi-fight0000" x="0" y="1167" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="WARM-fight0000" x="472" y="1167" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="SWEET-fight0000" x="944" y="1167" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+<SubTexture name="pokerface-fight0000" x="1416" y="1167" width="472" height="389" frameX="0" frameY="0" frameWidth="472" frameHeight="389" />
+</TextureAtlas>

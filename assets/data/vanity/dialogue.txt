@@ -1,0 +1,25 @@
+[178[ [179[ [223[ [216[ |Matt-cutscene-LOOP| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:geckMatt: !happy! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mattText^ !#FF000000! ?#FFFFFFFF? .. ~~      Oh, hey! Some people actually showed up for our singing competition! 
+:gf: !default-open! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Hello! 
+:bf: !default! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^bfText^ !#FF000000! ?#FFFFFFFF? .. ~~  Bap bap boh boh bah beh doh beh beep bah da 
+:geckTom: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.4; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~      ... 
+:geckTom: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~    Aaaaaaand they seem to be the only people who showed up. 
+:geckTom: !confused! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~    Remind me, why are we doing this again? 
+:geckEdd: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^eddText^ !#FF000000! ?#FFFFFFFF? .. ~~    Matt wanted us to do something. 
+:geckTom: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~    Oh yeah. 
+:geckMatt: !sad! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mattText^ !#FF000000! ?#FFFFFFFF? .. ~~      Come on, guys! Edd's always the one who gets ideas for us to do! 
+:geckMatt: !sad! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mattText^ !#FF000000! ?#FFFFFFFF? .. ~~      I thought I'd throw my hat in the ring and come up with something fun! 
+:bf: !relaxed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^bfText^ !#FF000000! ?#FFFFFFFF? .. ~~      bleh bleh bleh 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      This is the demo for "Just Another Eddsworld Mod." 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      This mod originally started off with Smecko making Eddsworld Beyond-styled versions of enraged_artist_'s VS Eddsworld mod. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      When working on the sprites, Smecko decided to make a mod dedicated to them instead. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      He teased them before in his BETADCIU videos in case if you're wondering why they look familiar. 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Will this mod ever come out? Who even knows. 
+:gf: !default-closed! [Comic Neue Bold[ ]30] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      The big reason this entire demo pack was made was because Smecko thought that people would want to use his custom mod characters in their cover videos. 
+:geckTom: !confused! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~    Is that really the reason? 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Yup. 
+:geckTom: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~    Wow. 
+:geckEdd: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^eddText^ !#FF000000! ?#FFFFFFFF? .. ~~    I mean, if it works, it works. 
+:geckMatt: !confused! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mattText^ !#FF000000! ?#FFFFFFFF? .. ~~      Can I start my song yet? 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Yeah, I'm done. 
+:geckMatt: !happy! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mattText^ !#FF000000! ?#FFFFFFFF? .. ~~      Yay! 

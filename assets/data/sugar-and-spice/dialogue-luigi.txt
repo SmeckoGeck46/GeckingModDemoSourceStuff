@@ -1,0 +1,28 @@
+[178[ [179[ [223[ [216[ |Sweet Mayhem cutscene 1 LOOP| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:gf: !default-open! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      This is the demo for "Friday Night Brickin' with General Mayhem." 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      On Smecko's birthday, he watched "The Lego Movie 2: The Second Part," and he loved it. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      And he decided to make a mod around Sweet Mayhem because he really liked her and thought she's a cool character. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Also, here's some trivia about the music for this upcoming(?) mod: 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      The voices used here are done via custom key-switching Decent Sampler instruments. 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Well, except for N. His voice here is just from his UTAU voicebank. 
+:gf: !default-open! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      As for the Decent Sampler instruments, Smecko made separate chromatic scales for BF and Sweet Mayhem: 
+:gf: !default-open! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      one basic chromatic scale with different vowels, and five chromatic scales for each separate vowel. 
+:gf: !default-closed! [Comic Neue Bold[ ]30] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      He took each sample from the chromatic scales, set up Decent Sampler instruments for Sweet Mayhem and BF, 
+:gf: !default-closed! [Comic Neue Bold[ ]30] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      and coded in the separate samples into the instruments so key-switching between different chromatic scales is possible. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      The reason Smecko used Decent Sampler is because it's free. 
+:gf: !default-closed! [Comic Neue Bold[ ]30] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      There are also some Decent Sampler instruments from Pianobook.co.uk that Smecko used for the instrumentals of this mod's songs. 
+:mayhemMasked: !default-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mayhem_masked^ !#FF000000! ?#FFFFFFFF? .. ~~      ...Wow. 
+:mayhemMasked: !default-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mayhem_masked^ !#FF000000! ?#FFFFFFFF? .. ~~      That is a lot to take in. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Yeah, but I'm here giving some background for these demos, so it's kind of a given. 
+:mayhemMasked: !default-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mayhem_masked^ !#FF000000! ?#FFFFFFFF? .. ~~      Okay, but why do look different from me and Bruce Willis? 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Yeah, my sprites for this mod aren't finished yet, so you're getting my original sprites. 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      The custom sprites for me will appear in the full mod, though. 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Also, N is here for the Easter egg. 
+:n-normal: !happy-play! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Hello! 
+:mayhemMasked: !default-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mayhem_masked^ !#FF000000! ?#FFFFFFFF? .. ~~      Hey, I know you... 
+:mayhemMasked: !default-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mayhem_masked^ !#FF000000! ?#FFFFFFFF? .. ~~      You're that robot I sang with in that Tug of War BETADCIU, right? 
+:n-normal: !happy-play! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Oh, yeah! That's right! 
+:n-normal: !normal-play! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      ...So, are we gonna start singing yet? 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Yeah, I'm done. 
+:gf: !default-open! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Now let's get this demo rolling! 
+:mayhemMasked: !default-fight! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^mayhem_masked^ !#FF000000! ?#FFFFFFFF? .. ~~      About time. 

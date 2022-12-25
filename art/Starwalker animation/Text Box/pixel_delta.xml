@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pixel_delta.png">
+<SubTexture name="open0000" x="0" y="0" width="206" height="58" frameX="0" frameY="0" frameWidth="206" frameHeight="58" />
+<SubTexture name="open0001" x="0" y="58" width="206" height="58" frameX="0" frameY="0" frameWidth="206" frameHeight="58" />
+<SubTexture name="open0002" x="0" y="116" width="206" height="58" frameX="0" frameY="0" frameWidth="206" frameHeight="58" />
+<SubTexture name="open0003" x="206" y="0" width="206" height="58" frameX="0" frameY="0" frameWidth="206" frameHeight="58" />
+<SubTexture name="open0004" x="206" y="58" width="206" height="58" frameX="0" frameY="0" frameWidth="206" frameHeight="58" />
+<SubTexture name="normal0000" x="206" y="116" width="206" height="58" frameX="0" frameY="0" frameWidth="206" frameHeight="58" />
+</TextureAtlas>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Pipis.png"><SubTexture name="Pipis Idle0000" x="0" y="0" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Idle0001" x="1071" y="0" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Idle0002" x="2142" y="0" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Idle0003" x="3213" y="0" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Idle0004" x="0" y="641" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Idle0005" x="1071" y="641" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Idle0006" x="2142" y="641" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Idle0007" x="3213" y="641" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Left Shark0000" x="0" y="1282" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Left Shark0001" x="1071" y="1282" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Left Shark0002" x="2142" y="1282" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Left Shark0003" x="3213" y="1282" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Left Shark0004" x="0" y="1923" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Left Shark0005" x="1071" y="1923" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Left Shark0006" x="2142" y="1923" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Left Shark0007" x="3213" y="1923" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Right Shark0000" x="0" y="2564" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Right Shark0001" x="1071" y="2564" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Right Shark0002" x="2142" y="2564" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Right Shark0003" x="3213" y="2564" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Right Shark0004" x="0" y="3205" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Right Shark0005" x="1071" y="3205" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Right Shark0006" x="2142" y="3205" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Right Shark0007" x="3213" y="3205" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Up Shark0000" x="0" y="3846" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Up Shark0001" x="1071" y="3846" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Up Shark0002" x="2142" y="3846" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Up Shark0003" x="3213" y="3846" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Up Shark0004" x="0" y="4487" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Up Shark0005" x="1071" y="4487" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Up Shark0006" x="2142" y="4487" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Up Shark0007" x="3213" y="4487" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Down Shark0000" x="0" y="5128" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Down Shark0001" x="1071" y="5128" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Down Shark0002" x="2142" y="5128" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Down Shark0003" x="3213" y="5128" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Down Shark0004" x="0" y="5769" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Down Shark0005" x="1071" y="5769" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Down Shark0006" x="2142" y="5769" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Pipis Down Shark0007" x="3213" y="5769" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+</TextureAtlas>

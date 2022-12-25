@@ -1,0 +1,48 @@
+function start(song) {
+
+}
+
+
+function stepHit(step) {
+
+	switch (step) { //extra camera pan, but hey it looks nice
+		
+		case 16:
+			setDefaultZoomOld(0.9);
+		case 32:
+			setDefaultZoomOld(0.9);
+		case 112:
+			getHaxeActor("bf").followCamX -= 690;
+			if (boyfriend.curCharacter == 'bf') {
+				getHaxeActor("bf").followCamY -= 10;
+			} else {
+				getHaxeActor("bf").followCamY += 200;
+			}
+		case 120:
+			//setDefaultZoom(0.9);
+			new FlxTimer().start(0, function(tmr) { //took this from the Winter Horrorland intro cutscene, but hey what works works
+				currentPlayState.camHUD.visible = true;
+				FlxTween.tween(FlxG.camera, {zoom: 1.05}, 0.75, {
+					ease: FlxEase.quadInOut,
+					onComplete: function(twn) {
+						trace("Okay, that should be it. I think.");
+					}
+				});
+			});
+		case 128:
+			setDefaultZoomOld(0.7);
+			getHaxeActor("bf").followCamX += 690;
+			if (boyfriend.curCharacter == 'bf') {
+				getHaxeActor("bf").followCamY += 10;
+			} else {
+				getHaxeActor("bf").followCamY -= 200;
+			}
+
+			
+	}
+}
+
+function playerOneSing() { //code that healths the bar
+	if(currentPlayState.demoMode) //healths the bar in demo mode only
+		currentPlayState.health += 0.02;
+}

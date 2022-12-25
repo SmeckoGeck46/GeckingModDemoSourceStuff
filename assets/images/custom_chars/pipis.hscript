@@ -1,0 +1,55 @@
+trace("Pipis.");
+// char is a Character
+function init(char) {
+    trace("Pipis.");
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
+    trace("Pipis.");
+    char.frames = tex;
+    char.animation.addByPrefix('idle', 'Pipis Idle', 31, false);
+    char.animation.addByPrefix('singUP', 'Pipis Up Shark', 31, false);
+    char.animation.addByPrefix('singLEFT','Pipis Left Shark', 31, false);
+    char.animation.addByPrefix('singRIGHT', 'Pipis Right Shark', 31, false);
+    char.animation.addByPrefix('singDOWN', 'Pipis Down Shark', 31, false);
+    
+    trace("finish Pipis");
+
+	if (char.isPlayer) {
+	    char.followCamX = 50;
+		char.followCamY = 100;
+	} else {
+		char.followCamX = 200;
+		char.followCamY = 10;
+	}
+
+    char.addOffset('singUP', 0);
+    char.addOffset('singRIGHT',0);
+    char.addOffset('singLEFT',0);
+    char.addOffset('singDOWN', 0);
+	char.addOffset('idle', 0);
+    char.playAnim('idle');
+
+    char.flipX = false;
+
+    char.enemyOffsetX = -300;
+	char.enemyOffsetY = 100;
+	char.playerOffsetX = -100;
+	char.playerOffsetY = -250;
+    char.midpointX = 0;
+    char.midpointY = 0;
+    //test for dem health bar colors
+	char.enemyColor = 0xFF0AB0E8;
+	char.playerColor = 0xFF0AB0E8;
+}
+portraitOffset = [0, 0];
+dadVar = 6.1;
+isPixel = false;
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+    trace("Pipis.");
+	trace("69427 liked this! ");
+    char.playAnim('idle');
+}
+trace("done");

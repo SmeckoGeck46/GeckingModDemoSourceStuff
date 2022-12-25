@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Cherry portrait.png">
+	<!-- Not created with Adobe Animate version 20.0.0.17400 because we're cool that way-->
+	<!-- Deal with it.-->
+	<!-- Also, this XML was originally intended for Cherry, but we're repurposing it.-->
+<SubTexture name="default0000" x="0" y="0" width="501" height="385" frameX="0" frameY="0" frameWidth="501" frameHeight="385" />
+</TextureAtlas>

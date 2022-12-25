@@ -1,0 +1,14 @@
+[178[ [179[ [223[ [216[ |Tom_cutscene_theme| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:geckTom: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~      Welp, I guess it's my turn. 
+:geckTom: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~      All I did for this song was take a Cymatics melody loop and made a song around it. 
+:geckTom: !smug! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~      I also liked the bassline, so I enhanced it. 
+:gf: !default-open! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Interesting. 
+:bf: !default! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^bfText^ !#FF000000! ?#FFFFFFFF? .. ~~  Boop boh boo bah bah boop boh bah boh 
+:geckTom: !confused! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~    Do you have any trivia to say before I start? 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Come to think of it, I do. 
+:gf: !default-closed! [Comic Neue Bold[ ]30] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Smecko made Tom's sprites first, and they're pretty much a recreation of enraged_artist_'s original Tom sprites from scratch. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Next came Edd's sprites, and then came Matt's sprites. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      For Edd and Matt's sprites, Smecko wanted them to differ from enraged_artist_'s Edd and Matt sprites, 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      so Smecko changed Edd's left animation face and most of Matt's facial animations. 
+:geckTom: !smug! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~      Interesting. 
+:geckTom: !default! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^tomText^ !#FF000000! ?#FFFFFFFF? .. ~~      Guess I'll start my song now. 

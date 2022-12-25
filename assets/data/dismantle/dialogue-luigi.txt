@@ -1,0 +1,25 @@
+[178[ [179[ [223[ [216[ |N_Cutscene_2| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:n-normal: !happy-fight! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Hey, that was actually pretty fun! 
+:n-normal: !normal-fight! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      ...so what do we do now? 
+:n-normal: !normal-play! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      You have another song with you, right? 
+:n-normal: !normal-fight! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Yeah. 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Hate to burst your bubbles, but we've reached the end of this demo. 
+:n-normal: !normal-fight! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Really? 
+:n-normal: !normal-play! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      That was fast. 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      I mean, the demo's gotta end somewhere. 
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      If you two want to have more fun singing with each other, you're gonna have to wait until your mod is done. 
+:n-normal: !happy-fight! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Okay. 
+:n-normal: !happy-fight! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Sounds good to me. 
+:n-normal: !pokerface-fight! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      I'm still baffled about the fact that there's two of me. 
+:n-normal: !pokerface-play! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Same. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      In the meantime, I'll talk about the background behind this song. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      This song was actually the first one set up, back when this was just a Murder Drones mod idea. 
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      The song was made after Smecko first watched the pilot, thinking of the background music from it. 
+:gf: !default-open! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Also, one of the ideas for the song's title was "Warm, Sweet Oil", but Smecko went with "Dismantle" instead. 
+:n-normal: !normal-fight! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Why not use "Disassemble"? I mean, I am a Disassembly Drone. 
+:n-normal: !happy-play! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      That's what I was gonna say! 
+:gf: !unimpressed! [Comic Neue Bold[ ]30] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Yeah, but Smecko didn't want people to confuse it with the Shaggy song "Disassembler" by just one letter, so he used "Dismantle" since it's a synonym. 
+:n-normal: !happy-fight! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Okay, that makes sense. 
+:gf: !default-open! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Now that the song trivia is out of the way, let's get going! 
+:n-normal: !SWEET-fight! [Gabriele Black Ribbon FG Regular[ ]52] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^n-shrekteeth^ !#FF000000! ?#FFFFFFFF? .. ~~      WILL DO. 
+:n-normal: !SWEET-play! [Gabriele Black Ribbon FG Regular[ ]52] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-shrekteeth^ !#FF000000! ?#FFFFFFFF? .. ~~      THIS IS GONNA BE INTERESTING. 

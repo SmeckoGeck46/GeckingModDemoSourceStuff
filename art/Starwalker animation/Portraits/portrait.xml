@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="portrait.png">
+<SubTexture name=" normal0000" x="0" y="0" width="547" height="534" frameX="0" frameY="0" frameWidth="547" frameHeight="534" />
+<SubTexture name=" down0000" x="547" y="0" width="547" height="534" frameX="0" frameY="0" frameWidth="547" frameHeight="534" />
+<SubTexture name=" back0000" x="0" y="534" width="547" height="534" frameX="0" frameY="0" frameWidth="547" frameHeight="534" />
+<SubTexture name=" shock0000" x="547" y="534" width="547" height="534" frameX="0" frameY="0" frameWidth="547" frameHeight="534" />
+</TextureAtlas>

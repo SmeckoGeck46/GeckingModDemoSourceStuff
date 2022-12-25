@@ -1,0 +1,10 @@
+[178[ [179[ [223[ [216[ |Breakfast| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Now this bonus song is meant to be exclusive to this mod pack.
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Smecko simply made it so people could see his Tord sprites in-action.
+:gf: !default-open! [Comic Neue Bold[ ]32] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      When Smecko started planning out Tord's sprites, he originally referenced Tord's appearance on the post cards in the "The End (Part 1)" title sequence.
+:gf: !default-open! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      When the RED October charity event started, Smecko referenced the charity merch instead.
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Also, Sweet Mayhem is here because Smecko wanted to show off her unmasked sprites, too.
+:gf: !unimpressed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      And Starwalker is here so he could at least have some more representation in this mod pack.
+:starwalker: !normal! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^starwalkerText^ !#FF000000! ?#FFFFFFFF? .. ~~      I'm just                   here.
+:gf: !default-closed! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      The background is actually the planning for the VS N stage that Smecko sent to j0hnnian.
+:gf: !cheer! [Comic Neue Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Anyways, let's get to it!

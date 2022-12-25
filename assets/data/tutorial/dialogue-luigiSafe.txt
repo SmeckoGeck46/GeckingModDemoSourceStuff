@@ -1,0 +1,20 @@
+[178[ [179[ [223[ [216[ |Breakfast| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:gf: !default-closed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Hey, N.
+:gf: !default-open! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      You wanna practice singing with me?
+:n-normal: !normal-play! [Comic Neue Bold[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Uh...okay?
+:gf: !default-open! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Good to hear!
+:gf: !default-closed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      By default, the controls are...wait...
+:gf: !unimpressed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Are you playing this on Demo Mode?
+:gf: !unimpressed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      AND Practice Mode?
+:n-normal: !nervous-play! [Comic Neue Bold[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      ...yeah?
+:gf: !unimpressed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      You just don't wanna die with botplay on, don't you?
+:n-normal: !pokerface-play! [Comic Neue Bold[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Pretty much.
+:gf: !unimpressed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      ...
+:gf: !default-open! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Yeah, whatever. That's fine.
+:gf: !default-closed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Since you can't die in Practice Mode, this is great for running character swaps in Modding Plus.
+:gf: !unimpressed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Mostly because Modding Plus's character swapping is slow on the first run, which lags the game a bit.
+:gf: !default-closed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      After the second run, the character swaps should run quicker.
+:gf: !unimpressed! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      I'm only bringing this up because this mod has a character swap in your mod's first song.
+:n-normal: !happy-play! [Comic Neue Bold[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Oh, yeah! That's right!
+:n-normal: !happy-play! [Comic Neue Bold[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^n-normal^ !#FF000000! ?#FFFFFFFF? .. ~~      Plus, I've been in Smecko's BETADCIUs, so I know what it's like.
+:gf: !cheer! [Comic Neue Bold[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^gfText^ !#FF000000! ?#FFFFFFFF? .. ~~      Anyways, let's get to it!

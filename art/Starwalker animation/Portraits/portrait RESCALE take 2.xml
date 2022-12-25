@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="portrait RESCALE take 2.png">
+<!-- The portraits were originally too big, so I had to resize them and stuff, explaining why this was originally called "portrait RESCALE take 2.png -->
+<SubTexture name="normal0000" x="0" y="0" width="424" height="368" frameX="0" frameY="0" frameWidth="424" frameHeight="368" />
+<SubTexture name="down0000" x="424" y="0" width="424" height="368" frameX="0" frameY="0" frameWidth="424" frameHeight="368" />
+<SubTexture name="back0000" x="848" y="0" width="424" height="368" frameX="0" frameY="0" frameWidth="424" frameHeight="368" />
+<SubTexture name="up0000" x="1272" y="0" width="424" height="368" frameX="0" frameY="0" frameWidth="424" frameHeight="368" />
+</TextureAtlas>

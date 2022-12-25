@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bfLol.png">
+<!-- HEY EVERY ! -->
+<!-- [Don't Forget] TO BUY THE SPAMTON G. SPAMTON [[I Miss My Wife]] SHIRT!!! -->
+<SubTexture name="funnyThing0000" x="0" y="0" width="280" height="370" frameX="-40" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0001" x="280" y="0" width="280" height="360" frameX="-30" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0002" x="560" y="0" width="270" height="370" frameX="-30" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0003" x="830" y="0" width="270" height="360" frameX="-40" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0004" x="0" y="0" width="280" height="370" frameX="-40" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0005" x="280" y="0" width="280" height="360" frameX="-30" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0006" x="560" y="0" width="270" height="370" frameX="-30" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0007" x="830" y="0" width="270" height="360" frameX="-40" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0008" x="0" y="0" width="280" height="370" frameX="-40" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0009" x="280" y="0" width="280" height="360" frameX="-30" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0010" x="560" y="0" width="270" height="370" frameX="-30" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0011" x="1100" y="0" width="270" height="360" frameX="-40" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0012" x="0" y="0" width="280" height="370" frameX="-40" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0013" x="280" y="0" width="280" height="360" frameX="-30" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0014" x="560" y="0" width="270" height="370" frameX="-30" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0015" x="1100" y="0" width="270" height="360" frameX="-40" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0016" x="1370" y="0" width="270" height="380" frameX="-50" frameY="-20" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0017" x="0" y="380" width="270" height="370" frameX="-60" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0018" x="270" y="380" width="280" height="380" frameX="-60" frameY="-20" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0019" x="550" y="380" width="260" height="370" frameX="-80" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0020" x="810" y="380" width="230" height="370" frameX="-80" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0021" x="1040" y="380" width="220" height="360" frameX="-80" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0022" x="1260" y="380" width="230" height="370" frameX="-80" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0023" x="0" y="760" width="260" height="370" frameX="-60" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0024" x="260" y="760" width="280" height="380" frameX="-60" frameY="-20" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0025" x="540" y="760" width="260" height="360" frameX="-70" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0026" x="800" y="760" width="260" height="400" frameX="-60" frameY="0" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0027" x="1060" y="760" width="240" height="400" frameX="-60" frameY="0" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0028" x="1300" y="760" width="270" height="370" frameX="-60" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0029" x="0" y="1160" width="280" height="360" frameX="-60" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0030" x="280" y="1160" width="270" height="370" frameX="-40" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0031" x="550" y="1160" width="280" height="360" frameX="-40" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0032" x="1300" y="760" width="270" height="370" frameX="-60" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0033" x="0" y="1160" width="280" height="360" frameX="-60" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0034" x="280" y="1160" width="270" height="370" frameX="-40" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0035" x="550" y="1160" width="280" height="360" frameX="-40" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0036" x="1300" y="760" width="270" height="370" frameX="-60" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0037" x="0" y="1160" width="280" height="360" frameX="-60" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0038" x="280" y="1160" width="270" height="370" frameX="-40" frameY="-30" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0039" x="550" y="1160" width="280" height="360" frameX="-40" frameY="-40" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0040" x="830" y="1160" width="270" height="320" frameX="-10" frameY="-80" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0041" x="1100" y="1160" width="270" height="330" frameX="0" frameY="-70" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0042" x="1370" y="1160" width="260" height="320" frameX="-20" frameY="-80" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0043" x="0" y="1530" width="260" height="330" frameX="-20" frameY="-70" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0044" x="260" y="1530" width="270" height="320" frameX="-10" frameY="-80" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0045" x="530" y="1530" width="280" height="330" frameX="-20" frameY="-70" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0046" x="810" y="1530" width="280" height="320" frameX="-10" frameY="-80" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0047" x="1090" y="1530" width="280" height="330" frameX="-10" frameY="-70" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0048" x="830" y="1160" width="270" height="320" frameX="-10" frameY="-80" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0049" x="1100" y="1160" width="270" height="330" frameX="0" frameY="-70" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0050" x="1370" y="1160" width="260" height="320" frameX="-20" frameY="-80" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0051" x="0" y="1530" width="260" height="330" frameX="-20" frameY="-70" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0052" x="260" y="1530" width="270" height="320" frameX="-10" frameY="-80" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0053" x="530" y="1530" width="280" height="330" frameX="-20" frameY="-70" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0054" x="810" y="1530" width="280" height="320" frameX="-10" frameY="-80" frameWidth="320" frameHeight="380" />
+<SubTexture name="funnyThing0055" x="1090" y="1530" width="280" height="330" frameX="-10" frameY="-70" frameWidth="320" frameHeight="380" />
+</TextureAtlas>

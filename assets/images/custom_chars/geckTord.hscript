@@ -1,0 +1,74 @@
+trace("This hscript goes really well with my giant robot");
+// char is a Character
+function init(char) {
+    trace("Also, I think there might be something in Tord's XML files");
+	trace("That's just my hunch, though");
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
+    trace("This is meant to work with all of Tord's sprites");
+    char.frames = tex;
+    char.animation.addByPrefix('idle', 'Tord idle0', 31, false);
+    char.animation.addByPrefix('singLEFT','Tord left0', 24, false);
+    char.animation.addByPrefix('singRIGHT', 'Tord right0', 24, false);
+    char.animation.addByPrefix('singUP', 'Tord up0', 24, false);
+    char.animation.addByPrefix('singDOWN', 'Tord down0', 24, false);
+    char.animation.addByPrefix('singLEFTmiss','Tord left MISS', 24, false);
+    char.animation.addByPrefix('singRIGHTmiss', 'Tord right MISS', 24, false);
+    char.animation.addByPrefix('singUPmiss', 'Tord up MISS', 24, false);
+    char.animation.addByPrefix('singDOWNmiss', 'Tord down MISS', 24, false);
+	char.animation.addByPrefix('singUP-alt', 'Tord laugh', 24, false);
+	char.animation.addByPrefix('hey', 'Tord change', 24, false);
+	char.animation.addByPrefix('firstDeath', 'Tord lose A', 24, false);
+    char.animation.addByPrefix('deathLoop', 'Tord lose B', 24, true);
+    char.animation.addByPrefix('deathConfirm', 'Tord change', 24, false);
+    if (char.isPlayer) {
+
+        char.followCamX = 20;
+        char.followCamY = 0;
+
+    } else {
+
+        char.followCamX = 59;
+		char.followCamY = -100;
+
+    }
+
+    char.addOffset('singUP', 0);
+	char.addOffset('singLEFT', 0);
+	char.addOffset('singRIGHT', 0);
+	char.addOffset('singDOWN', 0);
+    char.addOffset('singUPmiss', 0);
+    char.addOffset('singRIGHTmiss', 0);
+    char.addOffset('singLEFTmiss', 0);
+    char.addOffset('singDOWNmiss', 0);
+   	char.addOffset('singUP-alt', 0);
+	char.addOffset('hey', 0);
+    char.addOffset('idle',0);
+	char.addOffset('firstDeath',0);
+    char.addOffset('deathLoop',0);
+    char.addOffset('deathConfirm',0);
+    char.playAnim('idle');
+
+    char.flipX = false;
+	
+    char.enemyOffsetX = 0;
+    char.enemyOffsetY = 50;
+    char.playerOffsetX = 0;
+    char.playerOffsetY = -300;
+    char.midpointX = 0;
+    char.midpointY = 0;
+	//color stuff
+	char.enemyColor = 0xFFD73F3A;
+	char.playerColor = 0xFFD73F3A;
+}
+portraitOffset = [0, 0];
+dadVar = 4.0;
+isPixel = false;
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+	trace("Follow your hunch");
+    char.playAnim('idle');
+}
+trace("done");

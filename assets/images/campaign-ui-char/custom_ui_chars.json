@@ -1,0 +1,51 @@
+{
+  "bf": {
+    "like": "bf",
+    "defaultGraphics": true
+  },
+  "gf": {
+    "like": "gf",
+    "defaultGraphics": true
+  },
+  "dad": {
+    "like": "dad",
+    "defaultGraphics": true
+  },
+  "mom": {
+    "like": "mom",
+    "defaultGraphics": true
+  },
+  "spooky": {
+    "like": "spooky",
+    "defaultGraphics": true
+  },
+  "pico": {
+    "like": "pico",
+    "defaultGraphics": true
+  },
+  "parents-christmas": {
+    "like": "parents-christmas",
+    "defaultGraphics": true
+  },
+  "senpai":{
+    "like": "senpai",
+    "defaultGraphics": true
+  },
+  "starwalker": {
+    "like":"starwalker",
+    "defaultGraphics": true
+  },"edward-planet": {
+    "like":"edward-planet",
+    "defaultGraphics": true
+  },"anthony-paddle": {
+    "like":"anthony-paddle",
+    "defaultGraphics": true
+  },"sweet-mayhem": {
+    "like":"sweet-mayhem",
+    "defaultGraphics": true
+  },
+  "nothing": {
+    "like": "nothing",
+    "defaultGraphics": true
+  }
+}

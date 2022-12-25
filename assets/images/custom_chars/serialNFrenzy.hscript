@@ -1,0 +1,93 @@
+// char is a Character
+function init(char) {
+	if (!char.isDie) { //main stuff
+		trace("bleh");
+		trace("Have fun repressing this one!");
+	
+		if (char.isPlayer) { //player offsets
+			char.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'obamna.png', hscriptPath + 'obamna.xml');
+			char.animation.addByIndices('idle', 'Shrek Teeth Idle Shark PLAY', [1,2,3,4,5,5,6,7,8,9,9,10,10,11,0], "", 24, false); //by the power of indices, I can change the order of the frames mwa ha ha ha
+			char.animation.addByPrefix('singUP', 'Shrek Teeth Up Shark PLAY', 20, false);
+			char.animation.addByPrefix('singLEFT','Shrek Teeth Left Shark PLAY', 20, false);
+			char.animation.addByPrefix('singRIGHT', 'Shrek Teeth Right Shark PLAY', 20, false);
+			char.animation.addByPrefix('singDOWN', 'Shrek Teeth Down Shark PLAY', 20, false);
+	
+			char.followCamX = -850;
+			char.followCamY = -300;
+	
+			char.addOffset('singUP', 914, 500);
+			char.addOffset('singRIGHT',575,344);
+			char.addOffset('singLEFT', 1004,410);
+			char.addOffset('singDOWN', 811,446);
+
+		} else { //opponent offsets
+			char.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'SODA.png', hscriptPath + 'SODA.xml');
+			char.animation.addByIndices('idle', 'Shrek Teeth Idle Shark FIGHT', [1,2,3,4,5,5,6,7,8,9,9,10,10,11,0], "", 24, false); //by the power of indices, I can change the order of the frames mwa ha ha ha
+			char.animation.addByPrefix('singUP', 'Shrek Teeth Up Shark FIGHT', 20, false);
+			char.animation.addByPrefix('singLEFT','Shrek Teeth Left Shark FIGHT', 20, false);
+			char.animation.addByPrefix('singRIGHT', 'Shrek Teeth Right Shark FIGHT', 20, false);
+			char.animation.addByPrefix('singDOWN', 'Shrek Teeth Down Shark FIGHT', 20, false);
+
+			char.followCamX = -625;
+			char.followCamY = -400;
+
+			char.addOffset('singUP', 884, 500);
+			char.addOffset('singRIGHT',744,410);
+			char.addOffset('singLEFT', 1215,344);
+			char.addOffset('singDOWN', 991,446);
+
+		}
+	
+		char.addOffset('idle', 900,500);
+		char.playAnim('idle');
+	
+		char.flipX = false;
+		char.enemyOffsetX = 0;
+		char.enemyOffsetY = 0;
+		char.playerOffsetX = 150;
+		char.playerOffsetY = -350;
+		char.midpointX = 0;
+		char.midpointY = 0;
+		char.camOffsetX = -600;
+		char.camOffsetY = -200;
+		//dem health bar colors
+		char.enemyColor = 0xFFF7FF17;
+		char.playerColor = 0xFFf7ff17;
+	} else { //Game Over offsets
+		char.frames = FlxAtlasFrames.fromSparrow('assets/images/custom_chars/n-normal/dead.png', 'assets/images/custom_chars/n-normal/dead.xml');
+        char.animation.addByPrefix('singUP', "Anthony Paddle lose start", 25, false);
+        char.animation.addByPrefix('deathLoop', "Anthony Paddle lose loop", 25, true);
+        char.animation.addByPrefix('firstDeath', "Anthony Paddle lose start", 25, false);
+        char.animation.addByPrefix('deathConfirm', "Anthony Paddle lose final", 25, false);
+        char.animation.play('firstDeath');
+
+        char.addOffset('firstDeath', 300,100);
+        char.addOffset('deathLoop', 300,100);
+        char.addOffset('deathConfirm', 300,100);
+        char.playAnim('firstDeath');
+		
+		char.updateHitbox();
+		
+		//char.followCamX = -1650;
+
+		char.flipX = false;
+		char.enemyOffsetX = 0;
+		char.enemyOffsetY = 0;
+		char.playerOffsetX = 0;
+		char.playerOffsetY = -350;
+		char.midpointX = 0;
+		char.midpointY = 0;
+	}
+}
+portraitOffset = [0, 0];
+dadVar = 6.1;
+isPixel = false;
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+    trace("I am the disembodied voice of the robot.");
+    char.playAnim('idle');
+}
+trace("done");

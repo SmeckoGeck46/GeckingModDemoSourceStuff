@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="portrait RESCALE.png">
+<SubTexture name=" normal0000" x="0" y="0" width="356" height="362" frameX="-10" frameY="-2" frameWidth="420" frameHeight="364" />
+<SubTexture name=" down0000" x="356" y="0" width="356" height="362" frameX="-10" frameY="-2" frameWidth="420" frameHeight="364" />
+<SubTexture name=" back0000" x="712" y="0" width="356" height="362" frameX="-10" frameY="-2" frameWidth="420" frameHeight="364" />
+<SubTexture name=" shock0000" x="0" y="362" width="356" height="362" frameX="-10" frameY="-2" frameWidth="420" frameHeight="364" />
+<SubTexture name=" up0000" x="356" y="362" width="357" height="362" frameX="-10" frameY="-2" frameWidth="420" frameHeight="364" />
+</TextureAtlas>

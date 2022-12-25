@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Tord.png">
+	<!-- I understand why the EVIL PRODUCER waited so long to hire a new RED Leader. -->
+    <!-- The previous one... Dr. Gaster. -->
+    <!-- His brilliance was irreplaceable. -->
+    <!-- However, his life... was cut short. -->
+    <!-- One day, he accidentally generated a JSON file in Adobe Animate version 21.0.4.39603 instead of an XML file for an FNF custom mod character, and... -->
+    <!-- Well, I needn't gossip. -->
+    <!-- After all, it's rude to talk about someone who's listening. -->
+	<!-- It just is. -->
+<SubTexture name="Tord down0000" x="0" y="0" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down0001" x="541" y="0" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down0002" x="1082" y="0" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down0003" x="1623" y="0" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down0004" x="0" y="735" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down0005" x="0" y="735" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down0006" x="0" y="735" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down0007" x="0" y="735" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down0008" x="0" y="735" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down0009" x="0" y="735" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down MISS0000" x="541" y="735" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down MISS0001" x="1082" y="735" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down MISS0002" x="1623" y="735" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down MISS0003" x="0" y="1470" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down MISS0004" x="541" y="1470" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down MISS0005" x="541" y="1470" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down MISS0006" x="541" y="1470" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down MISS0007" x="541" y="1470" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down MISS0008" x="541" y="1470" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord down MISS0009" x="541" y="1470" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0000" x="1082" y="1470" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0001" x="1623" y="1470" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0002" x="0" y="2205" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0003" x="541" y="2205" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0004" x="1082" y="2205" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0005" x="1623" y="2205" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0006" x="0" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0007" x="541" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0008" x="1082" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0009" x="1082" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0010" x="1082" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0011" x="1082" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0012" x="1082" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0013" x="1082" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0014" x="1082" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0015" x="1082" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0016" x="1082" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord idle0017" x="1082" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left0000" x="1623" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left0001" x="0" y="3675" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left0002" x="541" y="3675" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left0003" x="1082" y="3675" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left0004" x="1623" y="3675" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left0005" x="1623" y="3675" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left0006" x="1623" y="3675" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left0007" x="1623" y="3675" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left0008" x="1623" y="3675" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left0009" x="1623" y="3675" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left MISS0000" x="0" y="4410" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left MISS0001" x="541" y="4410" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left MISS0002" x="1082" y="4410" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left MISS0003" x="1623" y="4410" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left MISS0004" x="0" y="5145" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left MISS0005" x="0" y="5145" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left MISS0006" x="0" y="5145" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left MISS0007" x="0" y="5145" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left MISS0008" x="0" y="5145" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord left MISS0009" x="0" y="5145" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right0000" x="541" y="5145" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right0001" x="1082" y="5145" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right0002" x="1623" y="5145" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right0003" x="0" y="5880" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right0004" x="541" y="5880" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right0005" x="541" y="5880" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right0006" x="541" y="5880" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right0007" x="541" y="5880" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right0008" x="541" y="5880" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right0009" x="541" y="5880" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right MISS0000" x="1082" y="5880" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right MISS0001" x="1623" y="5880" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right MISS0002" x="0" y="6615" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right MISS0003" x="541" y="6615" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right MISS0004" x="1082" y="6615" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right MISS0005" x="1082" y="6615" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right MISS0006" x="1082" y="6615" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right MISS0007" x="1082" y="6615" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right MISS0008" x="1082" y="6615" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord right MISS0009" x="1082" y="6615" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up0000" x="1623" y="6615" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up0001" x="0" y="7350" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up0002" x="541" y="7350" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up0003" x="1082" y="7350" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up0004" x="1623" y="7350" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up0005" x="1623" y="7350" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up0006" x="1623" y="7350" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up0007" x="1623" y="7350" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up0008" x="1623" y="7350" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up0009" x="1623" y="7350" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up MISS0000" x="0" y="8085" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up MISS0001" x="541" y="8085" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up MISS0002" x="1082" y="8085" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up MISS0003" x="1623" y="8085" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up MISS0004" x="0" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up MISS0005" x="0" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up MISS0006" x="0" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up MISS0007" x="0" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up MISS0008" x="0" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord up MISS0009" x="0" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord laugh0000" x="541" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord laugh0001" x="1082" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord laugh0002" x="1623" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord laugh0003" x="0" y="9555" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord laugh0004" x="541" y="9555" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord laugh0005" x="1082" y="9555" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord laugh0006" x="1082" y="9555" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord laugh0007" x="1082" y="9555" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord laugh0008" x="1082" y="9555" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord laugh0009" x="1082" y="9555" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord laugh0010" x="1082" y="9555" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord laugh0011" x="1082" y="9555" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0000" x="1623" y="9555" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0001" x="0" y="10290" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0002" x="541" y="10290" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0003" x="1082" y="10290" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0004" x="1623" y="10290" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0005" x="0" y="11025" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0006" x="541" y="11025" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0007" x="1082" y="11025" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0008" x="1082" y="11025" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0009" x="1082" y="11025" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0010" x="1082" y="11025" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0011" x="1082" y="11025" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0012" x="1082" y="11025" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0013" x="1082" y="11025" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0014" x="1082" y="11025" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord change0015" x="1082" y="11025" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord lose A0000" x="541" y="8085" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord lose A0001" x="1082" y="8085" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord lose A0002" x="1623" y="8085" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord lose A0003" x="0" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord lose A0004" x="0" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord lose A0005" x="0" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord lose A0006" x="0" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord lose B0000" x="0" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tord lose B0001" x="0" y="8820" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+</TextureAtlas>

@@ -1,0 +1,31 @@
+function start(song) {
+	//currentPlayState.health += 0.5; //if you want the song to be slightly easier
+	currentPlayState.gfSpeed = 128;
+
+}
+
+
+function beatHit(beat)
+{
+	switch (curBeat) { //GF's head tilts
+			case 0:
+				currentPlayState.gfSpeed = 128;
+			case 31, 288, 380, 412, 636, 668:
+				currentPlayState.gfSpeed = 2;
+			case 160, 352, 384, 608, 640:
+				currentPlayState.gfSpeed = 1;
+			case 736:
+				currentPlayState.gfSpeed = 256;
+		}
+}
+
+function playerTwoSing() {
+if (currentPlayState.health > 0.25) { //Health drain during N's hyper moments	
+    	currentPlayState.health -= 0.02;
+	}
+}
+
+function playerOneSing() { //code that healths the bar
+	if(currentPlayState.demoMode) //healths the bar in demo mode only
+		currentPlayState.health += 0.02;
+}

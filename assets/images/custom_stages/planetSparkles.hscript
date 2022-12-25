@@ -1,0 +1,53 @@
+//technically this is just the Crystal Palace, but whatevs
+
+var tubBack;
+var tubFront;
+
+function start(song) {
+
+	setDefaultZoom(0.6);
+	
+	var bg = new FlxSprite(-1300, -1620).loadGraphic(hscriptPath + 'BG main.png');
+    bg.antialiasing = true;
+	bg.updateHitbox();
+	bg.setGraphicSize(Std.int(bg.width * 0.8));
+    addSprite(bg, BEHIND_ALL);
+	
+	tubBack = new MetroSprite(1000, 200,true);
+    tubBack.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'HotTubBack.png', hscriptPath + 'HotTubBack.xml');
+    tubBack.animation.addByPrefix("idle", "bruce bop", 24, false);
+    tubBack.animation.play("idle");
+	tubBack.antialiasing = true;
+	tubBack.setGraphicSize(Std.int(tubBack.width * 0.56));
+	tubBack.updateHitbox();
+	addSprite(tubBack, BEHIND_ALL);
+	
+	tubFront = new MetroSprite(1000, 200,true);
+    tubFront.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'HotTubFront.png', hscriptPath + 'HotTubFront.xml');
+    tubFront.animation.addByPrefix("loop", "HotTubFront tub water", 24, true);
+    tubFront.animation.play("loop");
+	tubFront.antialiasing = true;
+	tubFront.setGraphicSize(Std.int(tubFront.width * 0.56));
+	tubFront.updateHitbox();
+	addSprite(tubFront, BEHIND_ALL);
+	
+	getHaxeActor("dad").y += 50;
+	if (boyfriend.curCharacter == 'n-normal') {
+		getHaxeActor("bf").x += 100;
+		getHaxeActor("bf").y += 50;
+		getHaxeActor("bf").followCamX -= 100;
+		getHaxeActor("bf").followCamY -= 50;
+	} else {
+		getHaxeActor("bf").x += 200;
+		getHaxeActor("bf").y += 50;
+		getHaxeActor("bf").followCamX -= 100;
+		getHaxeActor("bf").followCamY -= 100;
+	}
+}
+
+function beatHit(beat) {
+
+	if (curBeat % 2 == 1)
+		tubBack.dance();
+
+}

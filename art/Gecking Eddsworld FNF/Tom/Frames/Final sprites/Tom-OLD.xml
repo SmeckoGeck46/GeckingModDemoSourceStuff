@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Not reated with Adobe Animate version 20.0.0.17400 -->
+<!-- I used Krita, Hitfilm Express, and the Spritesheet and XML Generator for this spritesheet-->
+<TextureAtlas imagePath="Tom.png"><SubTexture name="Tom idle0000" x="0" y="0" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom idle0001" x="541" y="0" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom idle0002" x="1082" y="0" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom idle0003" x="1623" y="0" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom idle0004" x="0" y="735" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom idle0005" x="541" y="735" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom idle0006" x="1082" y="735" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom idle0007" x="1623" y="735" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom idle0008" x="0" y="1470" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom down0000" x="541" y="1470" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom down0001" x="1082" y="1470" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom down0002" x="1623" y="1470" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom down0003" x="0" y="2205" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom down0004" x="541" y="2205" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom down MISS0000" x="1082" y="2205" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom down MISS0001" x="1623" y="2205" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom down MISS0002" x="0" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom down MISS0003" x="541" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom down MISS0004" x="1082" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom left0000" x="1623" y="2940" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom left0001" x="0" y="3675" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom left0002" x="541" y="3675" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom left0003" x="1082" y="3675" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom left0004" x="1623" y="3675" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom left MISS0000" x="0" y="4410" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom left MISS0001" x="541" y="4410" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom left MISS0002" x="1082" y="4410" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom left MISS0003" x="1623" y="4410" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom left MISS0004" x="0" y="5145" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom right0000" x="541" y="5145" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom right0001" x="1082" y="5145" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom right0002" x="1623" y="5145" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom right0003" x="0" y="5880" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom right0004" x="541" y="5880" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom right MISS0000" x="1082" y="5880" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom right MISS0001" x="1623" y="5880" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom right MISS0002" x="0" y="6615" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom right MISS0003" x="541" y="6615" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom right MISS0004" x="1082" y="6615" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom up0000" x="1623" y="6615" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom up0001" x="0" y="7350" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom up0002" x="541" y="7350" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom up0003" x="1082" y="7350" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom up MISS0000" x="1623" y="7350" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom up MISS0001" x="0" y="8085" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom up MISS0002" x="541" y="8085" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+<SubTexture name="Tom up MISS0003" x="1082" y="8085" width="541" height="735" frameX="0" frameY="0" frameWidth="541" frameHeight="735" />
+</TextureAtlas>

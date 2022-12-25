@@ -1,0 +1,105 @@
+function start(song) {
+
+    //had to put these up here in order to get them to work
+    getHaxeActor("bf").x += 200;
+    /*getHaxeActor("bf").y += 50;
+    getHaxeActor("dad").y += 50;*/
+    getHaxeActor("gf").y -= 100;
+    scaleChar('gf', 0.8);
+
+    setDefaultZoom(0.7);
+
+    var flatShark = new FlxSprite(-1250, -400).loadGraphic(hscriptPath + 'bgBase.png');
+    flatShark.antialiasing = true;
+    flatShark.scrollFactor.set(0.9, 0.9);
+    flatShark.active = false;
+    addSprite(flatShark, BEHIND_ALL);
+
+    trace('smile');
+    trace('sweet');
+    trace('sister');
+    trace('sadistic');
+    trace('surprise');
+    trace('service');
+    trace('s  u  c  c');
+    trace('tsumi');
+    trace('your name starts with a T');
+
+    var fountain = new FlxSprite(666,-400);
+	var chef_peepee = FlxAtlasFrames.fromSparrow(hscriptPath + 'fountain.png', hscriptPath + 'fountain.xml');
+    //if Undertale has the peepee variable, then this stage can have the chef_peepee variable
+    fountain.frames = chef_peepee;
+    fountain.antialiasing = true;
+    fountain.scrollFactor.set(0.9, 0.9);
+    fountain.active = true;
+    fountain.animation.addByPrefix("kikkeriki", "fountain move it move it", 5, true);
+    fountain.animation.play("kikkeriki");
+    addSprite(fountain, BEHIND_ALL);
+
+    var takodachi = new FlxSprite(-1250, -400).loadGraphic(hscriptPath + 'castle.png');
+    takodachi.antialiasing = true;
+    takodachi.scrollFactor.set(0.9, 0.9);
+    takodachi.active = false;
+    addSprite(takodachi, BEHIND_ALL);
+
+    var guh = new FlxSprite(-1250, -400).loadGraphic(hscriptPath + 'housesBehind.png');
+    guh.setGraphicSize(Std.int(wstageFront.width * 1.1));
+    guh.updateHitbox();
+    guh.antialiasing = true;
+    guh.scrollFactor.set(0.9, 0.9);
+    guh.active = false;
+    addSprite(guh);
+
+    var hic = new FlxSprite(-1250, -400).loadGraphic(hscriptPath + 'housesFront.png');
+    hic.setGraphicSize(Std.int(wstageFront.width * 1.1));
+    hic.updateHitbox();
+    hic.antialiasing = true;
+    hic.scrollFactor.set(0.9, 0.9);
+    hic.active = false;
+    addSprite(hic);
+
+    /*What's the point of having the houses be their own separate layers, even though nobody's even gonna see them in-game?
+    I dunno, I thought it would look neat and cleaner. Plus, I was gonna have these houses be visible, but I made the stage too big, so oh well.*/
+
+}
+
+
+function beatHit(beat)
+{
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+
+/*Yes, there are Hololive EN references here.
+Don't judge me. I was in a Hololive EN mood when I made this stage.
+While we're eat it, does anybody wanna call Sana's nostril hairs?*/

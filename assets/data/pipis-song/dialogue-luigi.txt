@@ -1,0 +1,28 @@
+[178[ [179[ [223[ [216[ |spamton_neo_meeting| *100* =1= #pixel_delta#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:starwalker: !normal! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * What the hell               is THAT. 
+:n-normal: !normal-play! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^n-normal^ !#FFFFFFFF! ?#FF000000? .. ~~      * Is that supposed to be an egg or something? 
+:gf: !unimpressed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * That's what I was thinking. 
+:pipis: !default! [Pixel Arial 11 Bold[ ]52] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #pixel_delta# ^pipisText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Pipis. 
+:gf: !unimpressed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * ...Pipis? 
+:pipis: !default! [Pixel Arial 11 Bold[ ]52] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #pixel_delta# ^pipisText^ !#FFFFFFFF! ?#FF000000? .. ~~      * [4244 liked this!] 
+:gf: !unimpressed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Wait a minute...since we're up against Pipis... 
+:gf: !default-open! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * ...we reached the end of this demo! 
+:starwalker: !normal! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Seriously? 
+:starwalker: !down! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * We're ending                   it here? 
+:gf: !default-closed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Yup. This is the end. 
+:n-normal: !normal-play! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^n-normal^ !#FFFFFFFF! ?#FF000000? .. ~~      * We're seriously ending on a cliffhanger? 
+:gf: !default-closed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Yeah. 
+:gf: !unimpressed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * If we want to see what else the deal with Pipis is, 
+:gf: !unimpressed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * we're gonna have to wait for the full version of this mod. 
+:starwalker: !normal! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * All you need to know is that waiting for something Pisses me off... 
+:starwalker: !down! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * ...actually,                 scratch that. 
+:starwalker: !down! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Being impatient for something Pisses me off even more. 
+:starwalker: !normal! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * I'm gonna go ahead and           wait until the full version. 
+:starwalker: !normal! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Even if there isn't a           scheduled release date. 
+:starwalker: !normal! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * I'm the original           Starwalker. 
+:gf: !default-open! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * That's the spirit! 
+:pipis: !default! [Pixel Arial 11 Bold[ ]52] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #pixel_delta# ^pipisText^ !#FFFFFFFF! ?#FF000000? .. ~~      * [1509 liked this!] 
+:starwalker: !normal! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^starwalkerText^ !#FFFFFFFF! ?#FF000000? .. ~~      * Shut                up. 
+:gf: !unimpressed! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * ... 
+:gf: !default-open! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^gfText^ !#FFFFFFFF! ?#FF000000? .. ~~      * N, go do your thing. 
+:n-normal: !pokerface-play! [Pixel Arial 11 Bold[ ]36] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #pixel_delta# ^n-normal^ !#FFFFFFFF! ?#FF000000? .. ~~      * I still have no idea what's going on. 

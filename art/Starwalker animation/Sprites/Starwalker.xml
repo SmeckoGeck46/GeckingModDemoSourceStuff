@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Starwalker.png"><SubTexture name="Starwalker idle0000" x="0" y="0" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker idle0001" x="1071" y="0" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker idle0002" x="2142" y="0" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker idle0003" x="3213" y="0" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Left Shark0000" x="0" y="641" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Left Shark0001" x="1071" y="641" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Left Shark0002" x="2142" y="641" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Left Shark0003" x="3213" y="641" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Left Shark0004" x="0" y="1282" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Left Shark0005" x="1071" y="1282" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Right Shark0000" x="2142" y="1282" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Right Shark0001" x="3213" y="1282" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Right Shark0002" x="0" y="1923" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Right Shark0003" x="1071" y="1923" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Right Shark0004" x="2142" y="1923" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Right Shark0005" x="3213" y="1923" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Down Shark0000" x="0" y="2564" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Down Shark0001" x="1071" y="2564" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Down Shark0002" x="2142" y="2564" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Down Shark0003" x="3213" y="2564" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Down Shark0004" x="0" y="3205" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Down Shark0005" x="1071" y="3205" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Up Shark0000" x="2142" y="3205" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Up Shark0001" x="3213" y="3205" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Up Shark0002" x="0" y="3846" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Up Shark0003" x="1071" y="3846" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Up Shark0004" x="2142" y="3846" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Up Shark0005" x="3213" y="3846" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker GODDAMNIT KRIS0000" x="0" y="4487" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker GODDAMNIT KRIS0001" x="1071" y="4487" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker GODDAMNIT KRIS0002" x="2142" y="4487" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker GODDAMNIT KRIS0003" x="3213" y="4487" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker GODDAMNIT KRIS0004" x="0" y="5128" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker GODDAMNIT KRIS0005" x="1071" y="5128" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Left MISS0000" x="2142" y="5128" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Left MISS0001" x="3213" y="5128" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Left MISS0002" x="0" y="5769" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Left MISS0003" x="1071" y="5769" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Left MISS0004" x="2142" y="5769" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Left MISS0005" x="3213" y="5769" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Right MISS0000" x="0" y="6410" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Right MISS0001" x="1071" y="6410" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Right MISS0002" x="2142" y="6410" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Right MISS0003" x="3213" y="6410" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Right MISS0004" x="0" y="7051" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Right MISS0005" x="1071" y="7051" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Down MISS0000" x="2142" y="7051" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Down MISS0001" x="3213" y="7051" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Down MISS0002" x="0" y="7692" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Down MISS0003" x="1071" y="7692" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Down MISS0004" x="2142" y="7692" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Down MISS0005" x="3213" y="7692" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Up MISS0000" x="0" y="8333" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Up MISS0001" x="1071" y="8333" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Up MISS0002" x="2142" y="8333" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Up MISS0003" x="3213" y="8333" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Up MISS0004" x="0" y="8974" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+<SubTexture name="Starwalker Up MISS0005" x="1071" y="8974" width="1071" height="641" frameX="0" frameY="0" frameWidth="1071" frameHeight="641" />
+</TextureAtlas>

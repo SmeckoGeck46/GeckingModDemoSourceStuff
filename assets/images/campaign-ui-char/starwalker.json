@@ -1,0 +1,7 @@
+{
+  "animation": {
+    "idle": "starwalker"
+  },
+  "scale": 0.45,
+  "offset": [-150, -30]
+}
